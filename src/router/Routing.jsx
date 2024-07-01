@@ -8,7 +8,11 @@ import ForgetPassword from "../page/auth/ForgetPassword";
 import VerifyOtp from "../page/auth/VerifyOtp";
 import Dashboard from "../page/dashboard/Dashboard";
 import DashboardLayout from "../layout/DashboardLayout";
-
+import AddProduct from "../page/dashboard/addproduct/AddProduct";
+import FormLayoutProvider from "../layout/FormLayoutProvider";
+import EditProduct from "../page/dashboard/EditProduct/EditProduct";
+import ContactUs from "../page/dashboard/contact us/ContactUs";
+import EditProfile from "../page/dashboard/editProfile/EditProfile";
 // const Root = () => {
 //     const navigate = useNavigate();
 //     const isAuthenticated = getLocalStorage("token");
@@ -45,6 +49,22 @@ const router = createBrowserRouter([
             {
                 path: "home",
                 element:<DashboardLayout><Dashboard /></DashboardLayout>,
+            },
+            {
+                path: "add_product",
+                element:<FormLayoutProvider><AddProduct /></FormLayoutProvider>,
+            },
+            {
+                path: "edit_product",
+                element:<FormLayoutProvider><EditProduct /></FormLayoutProvider>,
+            },
+            {
+                path: "contact_us",
+                element:<FormLayoutProvider><ContactUs /></FormLayoutProvider>,
+            },
+            {
+                path: "edit_profile",
+                element:<FormLayoutProvider><EditProfile /></FormLayoutProvider>,
             },
         ],
     },

@@ -13,3 +13,11 @@
     padding: 15px;
     width: 100%;
 }
+
+.btnSubmit{
+    cursor: pointer;
+padding: 10px;
+color: white;
+background-color: #D24325;
+border-radius: 60px;
+}
