@@ -10,9 +10,6 @@ const Header = () => {
                     <h2>مرحبا , أية عمر</h2>
                     <img src={Images.client_Img} alt="" />
                 </div>
-                <div>
-                    
-                </div>
             </div>
         </header>
     )

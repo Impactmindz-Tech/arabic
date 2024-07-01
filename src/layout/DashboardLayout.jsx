@@ -5,9 +5,9 @@ const DashboardLayout = ({ children }) => {
   return (
     <div className='page'>
       <Header />
-      <div>
+      <main className='pt-5'>
         {children}
-      </div>
+      </main>
     </div>
   )
 }
