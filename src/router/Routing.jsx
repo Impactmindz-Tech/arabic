@@ -16,6 +16,7 @@ import EditProfile from "../page/dashboard/editProfile/EditProfile";
 import MyProduct from "../page/dashboard/my product/MyProduct";
 import DetailsMyProduct from "../page/dashboard/details my product/DetailsMyProduct";
 import Favorite from "../page/dashboard/Favourite/Favorite";
+import Profile from "../page/dashboard/Profile/Profile";
 // const Root = () => {
 //     const navigate = useNavigate();
 //     const isAuthenticated = getLocalStorage("token");
@@ -80,6 +81,10 @@ const router = createBrowserRouter([
             {
                 path: "favorite",
                 element:<FormLayoutProvider><Favorite /></FormLayoutProvider>,
+            },
+            {
+                path: "profile",
+                element:<FormLayoutProvider><Profile /></FormLayoutProvider>,
             },
         ],
     },

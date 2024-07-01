@@ -5,8 +5,8 @@ function Favorite() {
   return (
     <div className="w-[90%] m-auto">
 <div className="flex justify-end gap-2 items-center my-6 z-10">
-          <p> المفضلة</p>
-          <div className="arrow">
+          <p className="cursor-pointer"> المفضلة</p>
+          <div className="arrow cursor-pointer">
             <img
               src={Images.rightArrow}
               alt="right arrow"
