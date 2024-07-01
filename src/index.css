@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.verify_input {
+    border-bottom: 1px solid #cccc;
+    width: 100px !important;
+}
+
+.page{
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 15px;
+    width: 100%;
+}
