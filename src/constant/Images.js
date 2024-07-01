@@ -4,6 +4,7 @@ import bell_Img from '../assets/images/bell_icon.png'
 import client_Img from '../assets/images/clit_ig.png'
 import search_Img from '../assets/images/search_icon.png'
 import slider_Img from '../assets/images/slider.png'
+import chair_Img from '../assets/images/chair.png'
 
 export default {
     Auth_Img,
@@ -11,5 +12,6 @@ export default {
     bell_Img,
     client_Img,
     search_Img,
-    slider_Img
+    slider_Img,
+    chair_Img
 }

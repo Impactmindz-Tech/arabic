@@ -1,7 +1,8 @@
 import React from 'react'
 import Images from '../../constant/Images'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import SwiperSlider from '../../components/slider/SwiperSlider'
+import imagesslider from '../../constant/sliderImage'
+import chairImages from '../../constant/catgeroryiages'
 
 const Dashboard = () => {
     return (
@@ -10,23 +11,11 @@ const Dashboard = () => {
                 <input type="text" placeholder='ابحث عن منتجك' className='outline-none w-full text-right' name="" id="" />
                 <img src={Images.search_Img} alt="" />
             </div>
-            <div>
-                <Carousel
-                autoPlay={true}
-                >
-                    <div>
-                        <img src="assets/1.jpeg" />
-                        <img src={Images.slider_Img} alt="" />
-                    </div>
-                    <div>
-                        <img src="assets/1.jpeg" />
-                        <img src={Images.slider_Img} alt="" />
-                    </div>
-                    <div>
-                        <img src="assets/1.jpeg" />
-                        <img src={Images.slider_Img} alt="" />
-                    </div>
-                </Carousel>
+            <div className='pt-5'>
+                <SwiperSlider imagesslider={imagesslider} />
+            </div>
+            <div className='pt-5'>
+                <SwiperSlider category={true} imagesslider={chairImages} />
             </div>
         </>
     )
