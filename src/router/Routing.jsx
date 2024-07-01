@@ -14,6 +14,8 @@ import EditProduct from "../page/dashboard/EditProduct/EditProduct";
 import ContactUs from "../page/dashboard/contact us/ContactUs";
 import EditProfile from "../page/dashboard/editProfile/EditProfile";
 import MyProduct from "../page/dashboard/my product/MyProduct";
+import DetailsMyProduct from "../page/dashboard/details my product/DetailsMyProduct";
+import Favorite from "../page/dashboard/Favourite/Favorite";
 // const Root = () => {
 //     const navigate = useNavigate();
 //     const isAuthenticated = getLocalStorage("token");
@@ -70,6 +72,14 @@ const router = createBrowserRouter([
             {
                 path: "my_product",
                 element:<FormLayoutProvider><MyProduct /></FormLayoutProvider>,
+            },
+            {
+                path: "detail_my_product",
+                element:<FormLayoutProvider><DetailsMyProduct /></FormLayoutProvider>,
+            },
+            {
+                path: "favorite",
+                element:<FormLayoutProvider><Favorite /></FormLayoutProvider>,
             },
         ],
     },
