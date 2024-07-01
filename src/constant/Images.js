@@ -8,6 +8,8 @@ import chair_Img from '../assets/images/chair.png'
 import rightArrow from '../assets/images/rightArrow.png'
 import uploadImage from '../assets/images/uploadImage.png'
 import notes from '../assets/images/notes.png'
+import jacket from '../assets/images/items/jacket.png'
+import child from '../assets/images/items/child.png'
 export default {
     Auth_Img,
     login_Img,
@@ -17,5 +19,7 @@ export default {
     slider_Img,
     chair_Img,rightArrow,
     notes,
-    uploadImage
+    uploadImage,
+    jacket,
+    child
 }

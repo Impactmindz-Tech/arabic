@@ -13,6 +13,7 @@ import FormLayoutProvider from "../layout/FormLayoutProvider";
 import EditProduct from "../page/dashboard/EditProduct/EditProduct";
 import ContactUs from "../page/dashboard/contact us/ContactUs";
 import EditProfile from "../page/dashboard/editProfile/EditProfile";
+import MyProduct from "../page/dashboard/my product/MyProduct";
 // const Root = () => {
 //     const navigate = useNavigate();
 //     const isAuthenticated = getLocalStorage("token");
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
             {
                 path: "edit_profile",
                 element:<FormLayoutProvider><EditProfile /></FormLayoutProvider>,
+            },
+            {
+                path: "my_product",
+                element:<FormLayoutProvider><MyProduct /></FormLayoutProvider>,
             },
         ],
     },
