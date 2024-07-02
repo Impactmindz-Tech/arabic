@@ -29,6 +29,7 @@ import VendorsPage from "../page/dashboard/Vendors/VendorsPage";
 import DetailsCompleteOrder from "../page/dashboard/Details complete Order/DetailsCompleteOrder";
 import DetailsPreviousOrder from "../page/dashboard/Details Previous Order/DetailsPreviousOrder";
 import DetailsProduct from "../page/dashboard/Details Product/DetailsProductPage";
+import VendorProfilePage from "../page/dashboard/Vendor Profile/VendorProfilePage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -148,69 +149,14 @@ const router = createBrowserRouter([
                 path: "details_product",
                 element:<FormLayoutProvider><DetailsProduct /></FormLayoutProvider>,
             }
+            ,{
+                path: "vendor_profile",
+                element:<FormLayoutProvider><VendorProfilePage /></FormLayoutProvider>,
+            }
         ],
     },
 
-    // {
-    //     path: "/auth",
-    //     element: <AuthProteced />,
-    //     children: [
-    //         {
-    //             path: "login",
-    //             element: (
-    //                 <AuthLayout>
-    //                     <Login />
-    //                 </AuthLayout>
-    //             ),
-    //         },
-    //     ],
-    // },
-    // {
-    //     path: "/admin",
-    //     element: <DashboardProtected />,
-    //     children: [
-    //         {
-    //             path: "dashboard",
-    //             element: (
-    //                 <DashboardLayout>
-    //                     <Dashboard />
-    //                 </DashboardLayout>
-    //             ),
-    //         },
-    //         {
-    //             path: "adminmanagement",
-    //             element: (
-    //                 <DashboardLayout>
-    //                     <AdminManagement />
-    //                 </DashboardLayout>
-    //             ),
-    //         },
-    //         {
-    //             path: "groupmanagement",
-    //             element: (
-    //                 <DashboardLayout>
-    //                     <GroupManagement />
-    //                 </DashboardLayout>
-    //             ),
-    //         },
-    //         {
-    //             path: "calendar",
-    //             element: (
-    //                 <DashboardLayout>
-    //                     <Calendar />
-    //                 </DashboardLayout>
-    //             ),
-    //         },
-    //         {
-    //             path: "settings",
-    //             element: (
-    //                 <DashboardLayout>
-    //                     <SystemSetting />
-    //                 </DashboardLayout>
-    //             ),
-    //         },
-    //     ],
-    // },
+    
 ]);
 
 export default router;

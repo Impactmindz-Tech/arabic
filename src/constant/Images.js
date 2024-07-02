@@ -18,6 +18,7 @@ import deleteIcon from "../assets/images/deleteIcon.png";
 import arrowDown from "../assets/images/arrowDown.png";
 import money from "../assets/images/money.png";
 import banner from "../assets/images/banner.png";
+import banner2 from "../assets/images/banner2.png";
 import orderComplete from "../assets/images/orderComplete.png";
 
 import watch from "../assets/images/items/watch.png";
@@ -56,6 +57,7 @@ export default {
   orderComplete,
   deleteIcon,
   client_Img,
+  banner2,
   search_Img,
   editIcon,
   leftarrow,
