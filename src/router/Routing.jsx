@@ -25,6 +25,7 @@ import CategoryPage from "../page/dashboard/category/CategoryPage";
 import ProductPage from "../page/dashboard/product/ProductPage";
 import OrderPage from "../page/dashboard/orders/OrderPage";
 import ForesterPage from "../page/dashboard/forester/ForesterPage";
+import VendorsPage from "../page/dashboard/Vendors/VendorsPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -126,6 +127,10 @@ const router = createBrowserRouter([
             {
                 path: "forester",
                 element:<FormLayoutProvider><ForesterPage /></FormLayoutProvider>,
+            },
+            {
+                path: "vendors",
+                element:<FormLayoutProvider><VendorsPage /></FormLayoutProvider>,
             }
         ],
     },
