@@ -18,6 +18,8 @@ import DetailsMyProduct from "../page/dashboard/details my product/DetailsMyProd
 import Favorite from "../page/dashboard/Favourite/Favorite";
 import Profile from "../page/dashboard/Profile/Profile";
 import CoinPage from "../page/dashboard/coins/CoinPage";
+import WalletPage from "../page/dashboard/wallet/WalletPage";
+
 // const Root = () => {
 //     const navigate = useNavigate();
 //     const isAuthenticated = getLocalStorage("token");
@@ -90,6 +92,10 @@ const router = createBrowserRouter([
             {
                 path: "coins",
                 element:<FormLayoutProvider><CoinPage /></FormLayoutProvider>,
+            },
+            {
+                path: "wallet",
+                element:<FormLayoutProvider><WalletPage /></FormLayoutProvider>,
             },
         ],
     },

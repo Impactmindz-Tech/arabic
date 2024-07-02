@@ -1,7 +1,10 @@
 import { useState } from "react";
-import Images from "../../../constant/Images.js";
+import Header from "../../../components/Header.jsx";
+
 import { FileUploader } from "react-drag-drop-files";
 import { AiOutlineCloudUpload } from "react-icons/ai";
+import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
+import Images from "../../../constant/Images.js";
 const fileTypes = ["JPG", "PNG", "GIF"];
 const AddProduct = () => {
   const [file, setFile] = useState(null);
@@ -11,16 +14,9 @@ const AddProduct = () => {
   return (
     <>
       <div className="w-[90%] m-auto">
-        <div className="flex justify-end gap-2 items-center my-6 z-10">
-          <p>اضافة حراج </p>
-          <div className="arrow">
-            <img
-              src={Images.rightArrow}
-              alt="right arrow"
-              className="w-5 h-4"
-            />
-          </div>
-        </div>
+    <Header/>
+    
+     <BackButtonMenu text="اضافة حراج" link="/dashboard/my_product"/>
 
         <div className="border rounded-md border-lightGrey-400">
           <div className="title bg-[#FDD7CF] rounded-t-md text-right p-3 font-bold">
@@ -56,7 +52,7 @@ const AddProduct = () => {
               className="w-full text-right outline-none text-[12px] text-input-placeholder"
               type="text"
               id="product_name"
-              // {...register("email")}
+             
             />
           </div>
 
@@ -80,8 +76,11 @@ const AddProduct = () => {
           >
             الفئة
           </label>
-          <div className="2xl:p-4 border border-input-placeholder border-[#000E2F70] flex items-center gap-x-2 rounded-xl p-3 relative ">
-            <select
+          <div className=" 2xl:p-4 border border-input-placeholder border-[#000E2F70] flex items-center gap-x-2 rounded-xl p-3 relative ">
+            <div className="absolute top-5 left-5">
+              <img src={Images.arrowDown} alt="arrowDown" className="w-3 h-2"/>
+            </div>
+        <select
               name="category"
               id="category"
               className="w-full text-right outline-none text-[12px] text-input-placeholder"
@@ -97,6 +96,9 @@ const AddProduct = () => {
             الفئة الفرعية
           </label>
           <div className="2xl:p-4 border border-input-placeholder border-[#000E2F70] flex items-center gap-x-2 rounded-xl p-3 relative ">
+          <div className="absolute top-5 left-5">
+              <img src={Images.arrowDown} alt="arrowDown" className="w-3 h-2"/>
+            </div>
             <select
               name="sub_category"
               id="sub_category"
