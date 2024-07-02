@@ -52,3 +52,24 @@ select {
   select::-ms-expand {
     display: none;
   }
+
+  .MuiBox-root.css-ekhbh2 {
+    width: 48%;
+    margin: auto;
+}
+
+.btnSubmitPopUp{
+    cursor: pointer;
+padding: 10px;
+color: #D24325;
+background-color: #FDD7CF;
+border-radius: 10px;
+width: 28%;
+margin: auto;
+margin-top: 2%;
+border: 1px solid #D24325;
+}
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.text-\[\#D14224\].css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+
+color: #D24325;
+}

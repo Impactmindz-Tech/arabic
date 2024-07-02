@@ -14,9 +14,9 @@ const AddProduct = () => {
   return (
     <>
       <div className="w-[90%] m-auto">
-    <Header/>
-    
-     <BackButtonMenu text="اضافة حراج" link="/dashboard/my_product"/>
+        <Header />
+
+        <BackButtonMenu text="اضافة حراج" link="/dashboard/my_product" />
 
         <div className="border rounded-md border-lightGrey-400">
           <div className="title bg-[#FDD7CF] rounded-t-md text-right p-3 font-bold">
@@ -52,7 +52,6 @@ const AddProduct = () => {
               className="w-full text-right outline-none text-[12px] text-input-placeholder"
               type="text"
               id="product_name"
-             
             />
           </div>
 
@@ -78,9 +77,9 @@ const AddProduct = () => {
           </label>
           <div className=" 2xl:p-4 border border-input-placeholder border-[#000E2F70] flex items-center gap-x-2 rounded-xl p-3 relative ">
             <div className="absolute top-5 left-5">
-              <img src={Images.arrowDown} alt="arrowDown" className="w-3 h-2"/>
+              <img src={Images.arrowDown} alt="arrowDown" className="w-3 h-2" />
             </div>
-        <select
+            <select
               name="category"
               id="category"
               className="w-full text-right outline-none text-[12px] text-input-placeholder"
@@ -96,8 +95,8 @@ const AddProduct = () => {
             الفئة الفرعية
           </label>
           <div className="2xl:p-4 border border-input-placeholder border-[#000E2F70] flex items-center gap-x-2 rounded-xl p-3 relative ">
-          <div className="absolute top-5 left-5">
-              <img src={Images.arrowDown} alt="arrowDown" className="w-3 h-2"/>
+            <div className="absolute top-5 left-5">
+              <img src={Images.arrowDown} alt="arrowDown" className="w-3 h-2" />
             </div>
             <select
               name="sub_category"
@@ -108,19 +107,22 @@ const AddProduct = () => {
             </select>
           </div>
 
-
           <label
             className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="product_details"
           >
-            تفاصيل المنتج    </label>
+            تفاصيل المنتج{" "}
+          </label>
           <div className="2xl:p-4  border border-input-placeholder border-[#000E2F70] flex items-center gap-x-2 rounded-xl p-3 relative ">
-            <textarea name="product_details" id="product_details" rows={4}  className="resize-none row-10 w-full text-right outline-none text-[12px] text-input-placeholder"
-           ></textarea>
-
+            <textarea
+              name="product_details"
+              id="product_details"
+              rows={4}
+              className="resize-none row-10 w-full text-right outline-none text-[12px] text-input-placeholder"
+            ></textarea>
           </div>
 
-          <input type="submit" value="اضافة" className="btnSubmit"/>
+          <input type="submit" value="اضافة" className="btnSubmit" />
         </form>
       </div>
     </>
