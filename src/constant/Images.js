@@ -25,14 +25,19 @@ import shoe from "../assets/images/items/shoe.png";
 import mall1 from "../assets/images/items/mall1.png";
 import mall2 from "../assets/images/items/mall2.png";
 import car from "../assets/images/items/car.png";
-
 import chairText from "../assets/images/categoryImg/chair.png";
 import clothText from "../assets/images/categoryImg/cloth.png";
 
-
-
+import cal from "../assets/images/cal.png";
+import clock from "../assets/images/clock.png";
+import orderNumber from "../assets/images/orderNumber.png";
+import cart from "../assets/images/cart.png";
 export default {
   watch,
+  cal,
+  clock,
+  orderNumber,
+  cart,
   chairText,
   clothText,
   shoe,

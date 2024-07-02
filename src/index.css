@@ -73,3 +73,18 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.text-\[\#D
 
 color: #D24325;
 }
+
+
+.GrayBtnSubmit{
+    cursor: pointer;
+color: white;
+background-color: #C4C4C4;
+border-radius: 60px;
+}
+
+.RedBtnSubmit{
+    cursor: pointer;
+color: white;
+background-color: #D24325;
+border-radius: 60px;
+}

@@ -23,6 +23,8 @@ import AddressPage from "../page/dashboard/address/AddressPage";
 import CompleteOrder from "../page/dashboard/complete_order/CompleteOrder";
 import CategoryPage from "../page/dashboard/category/CategoryPage";
 import ProductPage from "../page/dashboard/product/ProductPage";
+import OrderPage from "../page/dashboard/orders/OrderPage";
+import ForesterPage from "../page/dashboard/forester/ForesterPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -116,6 +118,14 @@ const router = createBrowserRouter([
             {
                 path: "product",
                 element:<FormLayoutProvider><ProductPage /></FormLayoutProvider>,
+            },
+            {
+                path: "orders",
+                element:<FormLayoutProvider><OrderPage /></FormLayoutProvider>,
+            },
+            {
+                path: "forester",
+                element:<FormLayoutProvider><ForesterPage /></FormLayoutProvider>,
             }
         ],
     },
