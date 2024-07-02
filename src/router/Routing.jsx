@@ -28,6 +28,7 @@ import ForesterPage from "../page/dashboard/forester/ForesterPage";
 import VendorsPage from "../page/dashboard/Vendors/VendorsPage";
 import DetailsCompleteOrder from "../page/dashboard/Details complete Order/DetailsCompleteOrder";
 import DetailsPreviousOrder from "../page/dashboard/Details Previous Order/DetailsPreviousOrder";
+import DetailsProduct from "../page/dashboard/Details Product/DetailsProductPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -141,6 +142,11 @@ const router = createBrowserRouter([
             {
                 path: "details_previous_order",
                 element:<FormLayoutProvider><DetailsPreviousOrder /></FormLayoutProvider>,
+            }
+            ,
+            {
+                path: "details_product",
+                element:<FormLayoutProvider><DetailsProduct /></FormLayoutProvider>,
             }
         ],
     },

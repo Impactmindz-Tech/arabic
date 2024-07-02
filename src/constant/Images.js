@@ -32,8 +32,12 @@ import cal from "../assets/images/cal.png";
 import clock from "../assets/images/clock.png";
 import orderNumber from "../assets/images/orderNumber.png";
 import cart from "../assets/images/cart.png";
+
+
+import call from "../assets/images/call.png";
+import message from "../assets/images/message.png";
 export default {
-  watch,
+  watch,call,message,
   cal,
   clock,
   orderNumber,
