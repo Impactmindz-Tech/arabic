@@ -1,21 +1,17 @@
-import React, { useState } from 'react';
-import {
-  Box,
-  IconButton,
-  Modal,
-} from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
-import StarIcon from '@mui/icons-material/Star';
-import StarBorderIcon from '@mui/icons-material/StarBorder';
+import { useState } from "react";
+import { Box, IconButton, Modal } from "@mui/material";
+import CloseIcon from "@mui/icons-material/Close";
+import StarIcon from "@mui/icons-material/Star";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
 
 const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
   width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
+  bgcolor: "background.paper",
+  border: "2px solid #000",
   boxShadow: 24,
   p: 4,
 };
@@ -27,9 +23,9 @@ const VendorProfileReviewModal = ({ open, handleClose }) => {
     setRating(index + 1);
   };
 
-  const handleCloses=()=>{
-    handleClose(false)
-  }
+  const handleCloses = () => {
+    handleClose(false);
+  };
   return (
     <Modal
       open={open}
@@ -39,7 +35,6 @@ const VendorProfileReviewModal = ({ open, handleClose }) => {
     >
       <Box sx={style}>
         <Box display="flex" justifyContent="space-between" alignItems="center">
-         
           <IconButton onClick={handleCloses}>
             <CloseIcon />
           </IconButton>
@@ -57,14 +52,16 @@ const VendorProfileReviewModal = ({ open, handleClose }) => {
           ))}
         </Box>
 
-     
-        <textarea name="" id="" rows={4} className='rounded-2xl outline-none border w-[100%]  border-[#A7A7A7] resize-none text-right p-3' placeholder='اكتب تعليقك'></textarea>
+        <textarea
+          name=""
+          id=""
+          rows={4}
+          className="rounded-2xl outline-none border w-[100%]  border-[#A7A7A7] resize-none text-right p-3"
+          placeholder="اكتب تعليقك"
+        ></textarea>
 
         <Box display="flex" justifyContent="center" mt={3}>
-        <button className='btnSubmitPopUp2'>
-        تأكيد
-        </button>
-          
+          <button className="btnSubmitPopUp2">تأكيد</button>
         </Box>
       </Box>
     </Modal>

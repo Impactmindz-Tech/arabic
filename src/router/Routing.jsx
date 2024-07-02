@@ -30,6 +30,7 @@ import DetailsCompleteOrder from "../page/dashboard/Details complete Order/Detai
 import DetailsPreviousOrder from "../page/dashboard/Details Previous Order/DetailsPreviousOrder";
 import DetailsProduct from "../page/dashboard/Details Product/DetailsProductPage";
 import VendorProfilePage from "../page/dashboard/Vendor Profile/VendorProfilePage";
+import AdsPage from "../page/dashboard/ads/AdsPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -152,6 +153,10 @@ const router = createBrowserRouter([
             ,{
                 path: "vendor_profile",
                 element:<FormLayoutProvider><VendorProfilePage /></FormLayoutProvider>,
+            }
+            ,{
+                path: "ads",
+                element:<FormLayoutProvider><AdsPage /></FormLayoutProvider>,
             }
         ],
     },
