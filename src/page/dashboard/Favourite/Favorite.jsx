@@ -1,19 +1,15 @@
 import Images from "../../../constant/Images.js";
 import { FaHeart } from "react-icons/fa";
 import { TiStar } from "react-icons/ti";
+import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
+import Header from "../../../components/Header.jsx";
 function Favorite() {
   return (
     <div className="w-[90%] m-auto">
-<div className="flex justify-end gap-2 items-center my-6 z-10">
-          <p className="cursor-pointer"> المفضلة</p>
-          <div className="arrow cursor-pointer">
-            <img
-              src={Images.rightArrow}
-              alt="right arrow"
-              className="w-5 h-4"
-            />
-          </div>
-        </div>
+      <Header />
+        <BackButtonMenu text="المفضلة" link="/" />
+
+
       
 
       {/* product section */}

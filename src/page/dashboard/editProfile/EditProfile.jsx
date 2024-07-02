@@ -2,23 +2,16 @@ import { useState } from "react";
 import Images from "../../../constant/Images.js";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
-
+import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
+import Header from "../../../components/Header.jsx";
 const EditProfile = () => {
   const [passwordVisible, setIsPasswordVisible] = useState(false);
 
   return (
     <>
       <div className="w-[90%] m-auto">
-        <div className="flex justify-end gap-2 items-center my-6 z-10">
-          <p>تعديل المنتج</p>
-          <div className="arrow">
-            <img
-              src={Images.rightArrow}
-              alt="right arrow"
-              className="w-5 h-4"
-            />
-          </div>
-        </div>
+        <Header />
+        <BackButtonMenu text="تعديل الحساب" link="/" />
 
         <img
           className="w-[80px] mx-auto h-[80px] border rounded-full border-[#A9BCC0]"

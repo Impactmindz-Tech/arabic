@@ -1,15 +1,12 @@
 import Slider from "../../../components/DetailsProductSlider/Slider.jsx";
-import Images from "../../../constant/Images.js";
 import { FaRegEdit } from "react-icons/fa";
+import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
+import Header from "../../../components/Header.jsx";
 function DetailsMyProduct() {
   return (
     <div className="w-[90%] m-auto">
-      <div className="flex justify-end gap-2 items-center my-6 z-10">
-        <p> تفاصيل المنتج</p>
-        <div className="arrow">
-          <img src={Images.rightArrow} alt="right arrow" className="w-5 h-4" />
-        </div>
-      </div>
+     <Header />
+        <BackButtonMenu text="تفاصيل المنتج" link="/" />
 
       <p className="flex justify-end">
         <FaRegEdit className="text-[#D24325] cursor-pointer text-2xl" />

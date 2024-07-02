@@ -1,21 +1,16 @@
-import { useState } from "react";
-import { RiArrowLeftWideFill } from "react-icons/ri";
+
 import Images from "../../../constant/Images.js";
+import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
+import Header from "../../../components/Header.jsx";
 import { LiaWalletSolid,LiaCoinsSolid } from "react-icons/lia";
 const Profile = () => {
   return (
     <>
       <div className="w-[90%] m-auto">
-        <div className="flex justify-end gap-2 items-center my-6 z-10 ">
-          <p className="cursor-pointer">حسابى</p>
-          <div className="arrow cursor-pointer">
-            <img
-              src={Images.rightArrow}
-              alt="right arrow"
-              className="w-5 h-4"
-            />
-          </div>
-        </div>
+      <Header />
+        <BackButtonMenu text="حسابى" link="/" />
+
+       
         <div className="flex justify-end">
           <div className="flex gap-4 items-center">
             <div className="details">

@@ -1,34 +1,24 @@
-import { useState } from "react";
+import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
+import Header from "../../../components/Header.jsx";
 import Images from "../../../constant/Images.js";
-import { FileUploader } from "react-drag-drop-files";
-import { IoImagesOutline } from "react-icons/io5";
-const fileTypes = ["JPG", "PNG", "GIF"];
+
 const EditProduct = () => {
-  const [file, setFile] = useState(null);
-  const handleChange = (file) => {
-    setFile(file);
-  };
   return (
     <>
       <div className="w-[90%] m-auto">
-        <div className="flex justify-end gap-2 items-center my-6 z-10">
-          <p> تواصل معنا </p>
-          <div className="arrow">
+        <Header />
+        <BackButtonMenu text="تواصل معنا" link="/" />
+
+        {/* note image */}
+        <div className="flex justify-center">
+          <div className="flex justify-center w-40 h-40">
             <img
-              src={Images.rightArrow}
-              alt="right arrow"
-              className="w-5 h-4"
+              src={Images.notes}
+              alt={Images.notes}
+              className="w-[100%] h-[100%] object-contain"
             />
           </div>
         </div>
-
-{/* note image */}
-<div className="flex justify-center">
-<div className="flex justify-center w-40 h-40">
-
-  <img src={Images.notes} alt={Images.notes} className="w-[100%] h-[100%] object-contain" />
-</div>
-</div>
         <form className="flex flex-col mt-6 gap-y-2" noValidate>
           <label
             className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"

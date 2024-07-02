@@ -1,7 +1,8 @@
 import { useState } from "react";
-import Images from "../../../constant/Images.js";
 import { FileUploader } from "react-drag-drop-files";
 import { IoImagesOutline } from "react-icons/io5";
+import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
+import Header from "../../../components/Header.jsx";
 const fileTypes = ["JPG", "PNG", "GIF"];
 const EditProduct = () => {
   const [file, setFile] = useState(null);
@@ -11,16 +12,8 @@ const EditProduct = () => {
   return (
     <>
       <div className="w-[90%] m-auto">
-        <div className="flex justify-end gap-2 items-center my-6 z-10">
-          <p>تعديل المنتج</p>
-          <div className="arrow">
-            <img
-              src={Images.rightArrow}
-              alt="right arrow"
-              className="w-5 h-4"
-            />
-          </div>
-        </div>
+      <Header />
+        <BackButtonMenu text="تعديل المنتج" link="/" />
 
         <div className="border rounded-md border-lightGrey-400">
           <div className="title bg-[#FDD7CF] rounded-t-md text-right p-3 font-bold">
