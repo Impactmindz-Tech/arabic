@@ -34,3 +34,9 @@ border-radius: 60px;
 .swiper-pagination-bullet-active {
     background: #205960;
 }
+
+.wallet{
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}

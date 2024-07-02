@@ -17,6 +17,7 @@ import MyProduct from "../page/dashboard/my product/MyProduct";
 import DetailsMyProduct from "../page/dashboard/details my product/DetailsMyProduct";
 import Favorite from "../page/dashboard/Favourite/Favorite";
 import Profile from "../page/dashboard/Profile/Profile";
+import CoinPage from "../page/dashboard/coins/CoinPage";
 // const Root = () => {
 //     const navigate = useNavigate();
 //     const isAuthenticated = getLocalStorage("token");
@@ -85,6 +86,10 @@ const router = createBrowserRouter([
             {
                 path: "profile",
                 element:<FormLayoutProvider><Profile /></FormLayoutProvider>,
+            },
+            {
+                path: "coins",
+                element:<FormLayoutProvider><CoinPage /></FormLayoutProvider>,
             },
         ],
     },
