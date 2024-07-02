@@ -22,6 +22,7 @@ import WalletPage from "../page/dashboard/wallet/WalletPage";
 import AddressPage from "../page/dashboard/address/AddressPage";
 import CompleteOrder from "../page/dashboard/complete_order/CompleteOrder";
 import CategoryPage from "../page/dashboard/category/CategoryPage";
+import ProductPage from "../page/dashboard/product/ProductPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -112,6 +113,10 @@ const router = createBrowserRouter([
                 path: "category",
                 element:<FormLayoutProvider><CategoryPage /></FormLayoutProvider>,
             },
+            {
+                path: "product",
+                element:<FormLayoutProvider><ProductPage /></FormLayoutProvider>,
+            }
         ],
     },
 
