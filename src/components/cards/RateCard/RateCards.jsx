@@ -1,4 +1,3 @@
-import { FaHeart } from "react-icons/fa";
 import { TiStar } from "react-icons/ti";
 import Images from "../../../constant/Images";
 function RateCards() {

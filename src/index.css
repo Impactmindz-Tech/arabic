@@ -3,94 +3,95 @@
 @tailwind utilities;
 
 .verify_input {
-    border-bottom: 1px solid #cccc;
-    width: 100px !important;
+  border-bottom: 1px solid #cccc;
+  width: 100px !important;
 }
 
-.page{
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 15px;
-    width: 100%;
+.page {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
 }
 
-.btnSubmit{
-    cursor: pointer;
-padding: 10px;
-color: white;
-background-color: #D24325;
-border-radius: 60px;
+.btnSubmit {
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+  background-color: #d24325;
+  border-radius: 60px;
 }
 
-
-.cardShadow{
-    border-radius: 10px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+.cardShadow {
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 /* .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
     bottom: var(--swiper-pagination-bottom, -5px);
 } */
 .swiper-pagination-bullet-active {
-    background: #205960;
+  background: #205960;
 }
 
-.wallet{
-
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
+.wallet {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
 }
 
 select {
-    /* for Firefox */
-    -moz-appearance: none;
-    /* for Chrome */
-    -webkit-appearance: none;
-  }
-  
-  /* For IE10 */
-  select::-ms-expand {
-    display: none;
-  }
-
-  .MuiBox-root.css-ekhbh2 {
-    width: 48%;
-    margin: auto;
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
 }
 
-.btnSubmitPopUp{
-    cursor: pointer;
-padding: 10px;
-color: #D24325;
-background-color: #FDD7CF;
-border-radius: 10px;
-width: 28%;
-margin: auto;
-margin-top: 2%;
-border: 1px solid #D24325;
-}
-button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.text-\[\#D14224\].css-78trlr-MuiButtonBase-root-MuiIconButton-root{
-
-color: #D24325;
+/* For IE10 */
+select::-ms-expand {
+  display: none;
 }
 
-
-.GrayBtnSubmit{
-    cursor: pointer;
-color: white;
-background-color: #C4C4C4;
-border-radius: 60px;
+.MuiBox-root.css-ekhbh2 {
+  width: 48%;
+  margin: auto;
 }
 
-.RedBtnSubmit{
-    cursor: pointer;
-color: white;
-background-color: #D24325;
-border-radius: 60px;
+.btnSubmitPopUp {
+  cursor: pointer;
+  padding: 10px;
+  color: #d24325;
+  background-color: #fdd7cf;
+  border-radius: 10px;
+  width: 28%;
+  margin: auto;
+  margin-top: 2%;
+  border: 1px solid #d24325;
 }
-.GrayBtn{
-    cursor: pointer;
-color: rgb(0, 0, 0);
-background-color: #F2F2F2;
-border-radius: 20px;
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.text-\[\#D14224\].css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  color: #d24325;
+}
+
+.GrayBtnSubmit {
+  cursor: pointer;
+  color: white;
+  background-color: #c4c4c4;
+  border-radius: 60px;
+}
+
+.RedBtnSubmit {
+  cursor: pointer;
+  color: white;
+  background-color: #d24325;
+  border-radius: 60px;
+}
+.GrayBtn {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.blurBanner {
+  filter: grayscale(60%);
 }
