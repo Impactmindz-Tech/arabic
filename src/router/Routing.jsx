@@ -20,6 +20,7 @@ import Profile from "../page/dashboard/Profile/Profile";
 import CoinPage from "../page/dashboard/coins/CoinPage";
 import WalletPage from "../page/dashboard/wallet/WalletPage";
 import AddressPage from "../page/dashboard/address/AddressPage";
+import CompleteOrder from "../page/dashboard/complete_order/CompleteOrder";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -101,6 +102,10 @@ const router = createBrowserRouter([
             {
                 path: "address",
                 element:<FormLayoutProvider><AddressPage /></FormLayoutProvider>,
+            },
+            {
+                path: "complete_order",
+                element:<FormLayoutProvider><CompleteOrder /></FormLayoutProvider>,
             },
         ],
     },

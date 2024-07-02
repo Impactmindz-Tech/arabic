@@ -9,7 +9,7 @@ const AddressPage = () => {
 
   return (
     <>
-      <div className="w-[90%] m-auto relative h-[80vh] ">
+      <div className="w-[90%] m-auto relative h-[70vh] ">
         <Header />
         <BackButtonMenu text="العناوين" link="/" />
         <div className="links">

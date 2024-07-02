@@ -34,13 +34,13 @@ const Login = () => {
         <div className='2xl:max-w-[335px] w-full max-w-[270px] mx-auto h-full flex flex-col gap-2'>
             <img className='w-[150px] mx-auto h-[130px]' src={Images.Auth_Img} alt="" />
             <form className="flex flex-col mt-6" onSubmit={handleSubmit(onSubmit)} noValidate>
-                <label className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1" htmlFor="email">كلمة المرور</label>
+                <label className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1 capitalize" htmlFor="mobile"> رقم الجوال</label>
                 <div className="2xl:p-4 border border-input-placeholder border-[#000E2F70] flex items-center gap-x-2 rounded-xl p-3 relative mt-2">
-                    <input placeholder="ادخل رقم الجوال" className="w-full text-right outline-none text-[12px] text-input-placeholder" type="email" id="email" {...register("email")} />
+                    <input placeholder="ادخل رقم الجوال" className="w-full text-right outline-none text-[12px] text-input-placeholder capitalize" type="text" id="mobile" {...register("email")} />
                 </div>
                 <p className="text-[red] text-[12px]">{errors.email?.message}</p>
                 <div className='mt-3'>
-                    <label className="2xl:text-sm text-right block bg-white text-input-label -top-2 left-5 text-[11px] px-1" htmlFor="password">كلمة المرور</label>
+                    <label className="2xl:text-sm text-right block bg-white text-input-label -top-2 left-5 text-[11px] px-1 capitalize" htmlFor="password"> كلمة المرور</label>
                     <div className="2xl:p-4 border mt-1 border-input-placeholder border-[#000E2F70] flex gap-x-2 rounded-xl p-3 relative">
                         <div onClick={() => setIsPasswordVisible(!passwordVisible)}>  {passwordVisible ? <VisibilityOffIcon sx={{ color: "#747474" }} /> : <VisibilityIcon sx={{ color: "#747474" }} />}</div>
                         <input placeholder="ادخل كلمة المرور" className="w-full text-right outline-none text-[12px] text-input-placeholder" type={passwordVisible ? 'text' : 'password'} id="password" {...register('password')} />

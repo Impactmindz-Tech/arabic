@@ -17,11 +17,25 @@ import editIcon from "../assets/images/edit.png";
 import deleteIcon from "../assets/images/deleteIcon.png";
 import arrowDown from "../assets/images/arrowDown.png";
 import money from "../assets/images/money.png";
+import banner from "../assets/images/banner.png";
+
+import watch from "../assets/images/items/watch.png";
+import shoe from "../assets/images/items/shoe.png";
+import mall1 from "../assets/images/items/mall1.png";
+import mall2 from "../assets/images/items/mall2.png";
+import car from "../assets/images/items/car.png";
+
 export default {
+  watch,
+  shoe,
+  mall1,
+  mall2,
+  car,
   Auth_Img,
   login_Img,
   bell_Img,
   money,
+  banner,
   deleteIcon,
   client_Img,
   search_Img,

@@ -12,7 +12,7 @@ const SwiperSlider = ({ imagesslider, category }) => {
         >
             {
                 imagesslider?.map((item, index) => {
-                    console.log(item)
+                
                     return (
                         <>
                             {
