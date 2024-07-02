@@ -21,6 +21,7 @@ import CoinPage from "../page/dashboard/coins/CoinPage";
 import WalletPage from "../page/dashboard/wallet/WalletPage";
 import AddressPage from "../page/dashboard/address/AddressPage";
 import CompleteOrder from "../page/dashboard/complete_order/CompleteOrder";
+import CategoryPage from "../page/dashboard/category/CategoryPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -106,6 +107,10 @@ const router = createBrowserRouter([
             {
                 path: "complete_order",
                 element:<FormLayoutProvider><CompleteOrder /></FormLayoutProvider>,
+            },
+            {
+                path: "category",
+                element:<FormLayoutProvider><CategoryPage /></FormLayoutProvider>,
             },
         ],
     },

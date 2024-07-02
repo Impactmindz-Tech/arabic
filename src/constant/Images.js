@@ -26,8 +26,15 @@ import mall1 from "../assets/images/items/mall1.png";
 import mall2 from "../assets/images/items/mall2.png";
 import car from "../assets/images/items/car.png";
 
+import chairText from "../assets/images/categoryImg/chair.png";
+import clothText from "../assets/images/categoryImg/cloth.png";
+
+
+
 export default {
   watch,
+  chairText,
+  clothText,
   shoe,
   mall1,
   mall2,
