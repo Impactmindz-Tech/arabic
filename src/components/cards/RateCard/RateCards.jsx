@@ -5,9 +5,7 @@ function RateCards() {
   return (
     <div className="cardShadow py-5 relative m-2">
     <div className="p-3 flex justify-center relative">
-      <div className="absolute right-4 cursor-pointer text-[#D24325] top-0">
-        <FaHeart />
-      </div>
+     
       <img
         src={Images.jacket}
         alt={Images.jacket}

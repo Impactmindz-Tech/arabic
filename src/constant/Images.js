@@ -37,11 +37,14 @@ import cart from "../assets/images/cart.png";
 
 import call from "../assets/images/call.png";
 import message from "../assets/images/message.png";
+import whiteArrowRight from "../assets/images/whiteArrowRight.png";
+
 export default {
   watch,call,message,
   cal,
   clock,
   orderNumber,
+  whiteArrowRight,
   cart,
   chairText,
   clothText,

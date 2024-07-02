@@ -23,26 +23,21 @@ function DetailsProduct() {
       </div>
       <p className="text-red-600 font-semibold text-right my-2">ملابس</p>
       <div className="flex justify-end mb-5">
-
-      <p className="text-[#373737] font-light  w-[80%]  text-right my-2 ">
-        طقم أطفال يلبس لحد سن 5 سنوات عبارة عن قميص وبنطلون ومتوفر بجميع الالوان
-        سارع بالحجز للحصول عليه
-      </p>
+        <p className="text-[#373737] font-light  w-[80%]  text-right my-2 ">
+          طقم أطفال يلبس لحد سن 5 سنوات عبارة عن قميص وبنطلون ومتوفر بجميع
+          الالوان سارع بالحجز للحصول عليه
+        </p>
       </div>
 
       {/* review */}
       <div className="reviews min-w-[100%]">
         <div className="cardShadow flex justify-between w-full p-4 ">
           <div className="flex gap-3 items-end">
-            <img
-              src={Images.call}
-              alt="call"
-              className="w-10 h-10 cursor-pointer"
-            />
+            <img src={Images.call} alt="call" className=" cursor-pointer" />
             <img
               src={Images.message}
               alt="message"
-              className="w-10 h-10 cursor-pointer"
+              className=" cursor-pointer"
             />
           </div>
           <div className="flex items-center gap-2">
@@ -69,12 +64,7 @@ function DetailsProduct() {
         </div>
       </div>
 
-
-
-
-      <div className="btnSubmit my-10 text-center">
-      أضف الى السلة
-      </div>
+      <div className="btnSubmit my-10 text-center">أضف الى السلة</div>
     </div>
   );
 }
