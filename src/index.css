@@ -68,6 +68,17 @@ select::-ms-expand {
   margin-top: 2%;
   border: 1px solid #d24325;
 }
+.btnSubmitPopUp2 {
+    cursor: pointer;
+    padding: 10px;
+    color: #d24325;
+    background-color: #fdd7cf;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 2%;
+    border: 1px solid #d24325;
+  }
 button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.text-\[\#D14224\].css-78trlr-MuiButtonBase-root-MuiIconButton-root {
   color: #d24325;
 }
@@ -94,4 +105,19 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.text-\[\#D
 
 .blurBanner {
   filter: grayscale(60%);
+}
+.css-1wnsr1i {
+    border: none !important;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    color: red;
+}
+
+
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconButton-sizeMedium.css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root{
+    color: rgba(0, 0, 0, 0.54) !important;
+
+
 }
