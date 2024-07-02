@@ -88,3 +88,9 @@ color: white;
 background-color: #D24325;
 border-radius: 60px;
 }
+.GrayBtn{
+    cursor: pointer;
+color: rgb(0, 0, 0);
+background-color: #F2F2F2;
+border-radius: 20px;
+}
