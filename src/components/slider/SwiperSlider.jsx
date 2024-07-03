@@ -1,4 +1,3 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 const breakPoints = {
@@ -14,8 +13,8 @@ const breakPoints = {
   },
   // when window width is >= 640px
   640: {
-    slidesPerView: 3,
-    spaceBetween: 10,
+    slidesPerView: 6,
+    spaceBetween: 1,
   },
 };
 const SwiperSlider = ({ imagesslider, category }) => {
