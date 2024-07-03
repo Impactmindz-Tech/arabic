@@ -56,7 +56,7 @@ function CartPage() {
       </div>
 
       <div className="flex justify-between gap-2">
-        <button className="GreenBtnSubmit p-2 px-10 sm:px-5">اكمال الطلب</button>
+        <button className="GreenBtnSubmit p-2 px-10 sm:px-5">اكمال الطلب </button>
        <Link to="/dashboard/complete_order">
       <button className="RedBtnSubmit p-2 px-10 sm:px-5"> الغاء</button>  </Link>
       </div>
