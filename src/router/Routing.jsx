@@ -34,6 +34,7 @@ import AdsPage from "../page/dashboard/ads/AdsPage";
 import DetailsProductHarajPage from "../page/dashboard/Details Product Haraj/DetailsProductHarajPage";
 import MenuPage from "../page/dashboard/menu/MenuPage";
 import CartPage from "../page/dashboard/Cart/CartPage";
+import NotificationPage from "../page/dashboard/Notification/NotificationPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -172,6 +173,11 @@ const router = createBrowserRouter([
             {
                 path: "cart",
                 element:<FormLayoutProvider><CartPage /></FormLayoutProvider>,
+            }
+            ,
+            {
+                path: "notification",
+                element:<FormLayoutProvider><NotificationPage /></FormLayoutProvider>,
             }
         ],
     },
