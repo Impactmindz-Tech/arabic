@@ -31,6 +31,7 @@ import DetailsPreviousOrder from "../page/dashboard/Details Previous Order/Detai
 import DetailsProduct from "../page/dashboard/Details Product/DetailsProductPage";
 import VendorProfilePage from "../page/dashboard/Vendor Profile/VendorProfilePage";
 import AdsPage from "../page/dashboard/ads/AdsPage";
+import DetailsProductHarajPage from "../page/dashboard/Details Product Haraj/DetailsProductHarajPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -157,6 +158,10 @@ const router = createBrowserRouter([
             ,{
                 path: "ads",
                 element:<FormLayoutProvider><AdsPage /></FormLayoutProvider>,
+            },
+            {
+                path: "details_product_haraj",
+                element:<FormLayoutProvider><DetailsProductHarajPage /></FormLayoutProvider>,
             }
         ],
     },

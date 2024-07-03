@@ -34,19 +34,21 @@ import clock from "../assets/images/clock.png";
 import orderNumber from "../assets/images/orderNumber.png";
 import cart from "../assets/images/cart.png";
 import whiteStar from "../assets/images/whiteStar.png";
+import userBlue from "../assets/images/userBlue.png";
 
 
 import call from "../assets/images/call.png";
 import message from "../assets/images/message.png";
 import whiteArrowRight from "../assets/images/whiteArrowRight.png";
+import sendBtn from "../assets/images/sendBtn.png";
 
 export default {
   watch,call,message,
   cal,
   whiteStar,
-  clock,
+  clock,sendBtn,
   orderNumber,
-  whiteArrowRight,
+  whiteArrowRight,userBlue,
   cart,
   chairText,
   clothText,
