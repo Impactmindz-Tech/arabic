@@ -7,7 +7,7 @@ const AuthLayout = ({ children }) => {
                 <div className="sm:hidden flex flex-1 items-center justify-center border border-blue-900 rounded-3xl">
                     <img className='2xl:w-50' src={Images.Auth_Img} alt="logo-img" />
                 </div>
-                <div className="flex-1 self-center  ">
+                <div className="flex-1 self-center sm:flex ">
                     {children}
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import OtpInput from 'react-otp-input';
 import Images from '../../constant/Images';
 import EastIcon from '@mui/icons-material/East';
@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const VerifyOtp = () => {
   const [otp, setOtp] = useState('');
   return (
-    <div className='text-center'>
+    <div className='text-center p-[20px]'>
       <div className='text-right pb-24'>
         <p className='font-semibold'>ادخل الكود التأكيدى <EastIcon /></p>
         <p>تم ارسال كود تأكيدى على رقم الجوال الخاص بك قم بادخاله لاستعادة كلمة المرور</p>
