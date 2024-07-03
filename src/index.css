@@ -73,16 +73,16 @@ select::-ms-expand {
   border: 1px solid #d24325;
 }
 .btnSubmitPopUp2 {
-    cursor: pointer;
-    padding: 10px;
-    color: #d24325;
-    background-color: #fdd7cf;
-    border-radius: 10px;
-    width: 40%;
-    margin: auto;
-    margin-top: 2%;
-    border: 1px solid #d24325;
-  }
+  cursor: pointer;
+  padding: 10px;
+  color: #d24325;
+  background-color: #fdd7cf;
+  border-radius: 10px;
+  width: 40%;
+  margin: auto;
+  margin-top: 2%;
+  border: 1px solid #d24325;
+}
 button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.text-\[\#D14224\].css-78trlr-MuiButtonBase-root-MuiIconButton-root {
   color: #d24325;
 }
@@ -118,106 +118,88 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.text-\[\#D
   filter: grayscale(60%);
 }
 .css-1wnsr1i {
-    border: none !important;
+  border: none !important;
 }
 
-button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
-    color: red;
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  color: red;
 }
 
-
-
-button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconButton-sizeMedium.css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root{
-    color: rgba(0, 0, 0, 0.54) !important;
-
-
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconButton-sizeMedium.css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root {
+  color: rgba(0, 0, 0, 0.54) !important;
 }
-.MuiBox-root.css-1wnsr1i{
-    border-radius: 10px;
+.MuiBox-root.css-1wnsr1i {
+  border-radius: 10px;
 }
 
-.bottomBoxShadow{
+.bottomBoxShadow {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
 }
 
-
-
-.ShapesLeft{
-
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 20px;
-color: white;
-border-top-left-radius: 60px;
-border-bottom-left-radius: 60px;
-border-top-right-radius: 60px;
-  background-color: #4F777F;
+.ShapesLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-top-right-radius: 60px;
+  background-color: #4f777f;
 }
 
 /* right */
 
-.right{
-  width: 100%;
+.right {
   display: flex;
-  flex-wrap: wrap;
-justify-content: start;
 }
-.ShapesRight{
-
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 20px;
-color: rgb(0, 0, 0);
-border-top-right-radius: 60px;
-border-bottom-right-radius: 60px;
-border-top-left-radius: 60px;
-  background-color: #F1F1F1;
+.ShapesRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+  background-color: #f1f1f1;
 }
 
-.left{
-  width: 100%;
+.left {
   display: flex;
-  flex-wrap: wrap;
-justify-content: end;
 }
+
+.bottomMenuBar {
+  max-width: 750px;
+  margin: 0 auto;
+
+  width: 100%;
+}
+
 @media (max-width: 767px) {
-  .left{
-    width: 100%;
+  .left {
     display: flex;
     flex-wrap: wrap;
-  justify-content: end;
+    justify-content: end;
   }
- 
 
-  .ShapesLeft{
-
-  
+  .ShapesLeft {
     padding: 4vw;
+  }
 
-    }
-    
-    /* right */
-    
-    .right{
-      width: 100%;
-     
-    }
-    .ShapesRight{
-    
-   
+  /* right */
+
+  .ShapesRight {
     padding: 4vw;
+  }
+  .MuiBox-root.css-1wnsr1i {
+    width: 90%;
+    margin: auto;
+  }
 
-    }
-    .MuiBox-root.css-1wnsr1i {
-      width: 90%;
-      margin: auto;
-    }
-
-    .MuiBox-root.css-ekhbh2 {
-      width: auto !important;
-      padding-bottom: 90px;
-    }
+  .MuiBox-root.css-ekhbh2 {
+    width: auto !important;
+    padding-bottom: 90px;
+  }
 }

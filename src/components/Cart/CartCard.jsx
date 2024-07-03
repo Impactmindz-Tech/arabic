@@ -27,8 +27,8 @@ function CartCard() {
           <div className="flex items-center justify-end gap-4">
             <div className="text-right">
               <h3 className="mb-4">تيشيرت رصاصى </h3>
-              <div className="border border-[#D24325] rounded-full flex px-1 w-[160px] sm:w-auto items-center justify-between">
-                <div className="flex justify-center left"><img src={Images.minus} alt="minus sign" className="cursor-pointer" onClick={()=>decrement()}/></div>
+              <div className="border border-[#D24325] rounded-full flex items-center justify-between">
+                <div className="flex justify-end left"><img src={Images.minus} alt="minus sign" className="cursor-pointer" onClick={()=>decrement()}/></div>
                 <div className="flex justify-center input  text-[#D24325] font-bold">{count}</div>
                 <div className="flex justify-center"><img src={Images.plus} alt="plus sign" className="cursor-pointer" onClick={()=>Increment()}/></div>
               </div>
