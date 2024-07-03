@@ -135,3 +135,49 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
 .MuiBox-root.css-1wnsr1i{
     border-radius: 10px;
 }
+
+.bottomBoxShadow{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+}
+
+
+.left{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+justify-content: end;
+}
+.ShapesLeft{
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+color: white;
+border-top-left-radius: 60px;
+border-bottom-left-radius: 60px;
+border-top-right-radius: 60px;
+  background-color: #4F777F;
+}
+
+/* right */
+
+.right{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+justify-content: start;
+}
+.ShapesRight{
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+color: rgb(0, 0, 0);
+border-top-right-radius: 60px;
+border-bottom-right-radius: 60px;
+border-top-left-radius: 60px;
+  background-color: #F1F1F1;
+}
