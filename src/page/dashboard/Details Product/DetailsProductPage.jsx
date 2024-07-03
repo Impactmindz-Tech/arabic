@@ -12,7 +12,7 @@ function DetailsProduct() {
       <BackButtonMenu text="تفاصيل المنتج " link="/" />
 
       <p className="flex justify-end">
-        <FaHeart className="text-[#B2B2B2] cursor-pointer text-2xl" />
+        <FaHeart className="text-[#B2B2B2] cursor-pointer text-2xl sm:w-20" />
       </p>
       <div className="flex w-[100%] h-[250px] m-auto my-2 py-5">
         <Slider />
@@ -32,15 +32,16 @@ function DetailsProduct() {
 
       {/* review */}
       <div className="reviews min-w-[100%]">
-        <div className="cardShadow flex justify-between w-full p-4 ">
-          <div className="flex gap-3 items-end">
-            <img src={Images.call} alt="call" className=" cursor-pointer" />
+        <div className="cardShadow flex justify-between w-full p-4 sm:p-2">
+          <div className="flex gap-3 items-end sm:gap-1">
+           <Link to="">
+            <img src={Images.call} alt="call" className="cursor-pointer sm:w-[6vw] sm:h-auto sm:object-cover"  />
+           </Link>
            <Link to="/dashboard/details_product_haraj">
-
             <img
               src={Images.message}
               alt="message"
-              className=" cursor-pointer"
+              className="cursor-pointer sm:w-[6vw] sm:h-auto sm:object-cover"
             />
            </Link>
           </div>
@@ -61,7 +62,7 @@ function DetailsProduct() {
               <img
                 src={Images.mall1}
                 alt="mall"
-                className="rounded-full w-[100px] h-[100px]"
+                className="rounded-full w-[100px] h-[100px] sm:w-[15vw] sm:h-[15vw]"
               />
             </div>
           </div>
