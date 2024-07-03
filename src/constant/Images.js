@@ -36,19 +36,42 @@ import cart from "../assets/images/cart.png";
 import whiteStar from "../assets/images/whiteStar.png";
 import userBlue from "../assets/images/userBlue.png";
 
-
 import call from "../assets/images/call.png";
 import message from "../assets/images/message.png";
 import whiteArrowRight from "../assets/images/whiteArrowRight.png";
 import sendBtn from "../assets/images/sendBtn.png";
 
+import callus from "../assets/images/menu/callus.png";
+import click from "../assets/images/menu/click.png";
+import correct from "../assets/images/menu/correct.png";
+import heart from "../assets/images/menu/heart.png";
+import info from "../assets/images/menu/info.png";
+import msg from "../assets/images/menu/msg.png";
+import monitor from "../assets/images/menu/monitor.png";
+import share from "../assets/images/menu/share.png";
+import user from "../assets/images/menu/user.png";
+import logout from "../assets/images/menu/logout.png";
+
 export default {
-  watch,call,message,
+  watch,
+  call,
+  message,logout,
   cal,
   whiteStar,
-  clock,sendBtn,
+  callus,
+  click,
+  correct,
+  heart,
+  info,
+  msg,
+  monitor,
+  share,
+  user,
+  clock,
+  sendBtn,
   orderNumber,
-  whiteArrowRight,userBlue,
+  whiteArrowRight,
+  userBlue,
   cart,
   chairText,
   clothText,

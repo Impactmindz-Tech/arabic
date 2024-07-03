@@ -2,7 +2,6 @@ import Slider from "../../../components/DetailsProductSlider/Slider.jsx";
 import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
 import Header from "../../../components/Header.jsx";
 import Images from "../../../constant/Images.js";
-import { IoMdStar } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
 function DetailsProductHarajPage() {
   return (
@@ -43,9 +42,8 @@ function DetailsProductHarajPage() {
           <div className="flex items-center gap-2">
             <div className="">
               <h4 className="font-bold text-[#205960] text-right">
-              محمد عبدالله
+                محمد عبدالله
               </h4>
-         
             </div>
             <div className="images">
               <img
@@ -58,29 +56,21 @@ function DetailsProductHarajPage() {
         </div>
       </div>
 
-
-
       <div className="flex justify-between my-9">
         <div className="text-red-600 font-semibold"> الكل</div>
         <div className="text-green-900">التعليقات</div>
       </div>
 
-
-
-
-
       <div className="reviews min-w-[100%] flex flex-col gap-y-4">
         <div className="cardShadow flex justify-between w-full p-3 items-center">
-          <div className="pl-4 font-bold text-[#205960]" >
-           <h4 > 5 أيام</h4>
-          <h4>رد</h4>
+          <div className="pl-4 font-bold text-[#205960]">
+            <h4> 5 أيام</h4>
+            <h4>رد</h4>
           </div>
           <div className="flex items-center gap-2">
             <div className="">
-              <h4 className="font-bold text-[#205960] text-right">
-              أية عمر 
-              </h4>
-         <p className="text-[#555555]">أريد شراء هذا المنتج</p>
+              <h4 className="font-bold text-[#205960] text-right">أية عمر</h4>
+              <p className="text-[#555555]">أريد شراء هذا المنتج</p>
             </div>
             <div className="images">
               <img
@@ -92,18 +82,15 @@ function DetailsProductHarajPage() {
           </div>
         </div>
 
-
         <div className="cardShadow flex justify-between w-full p-3 items-center">
-          <div className="pl-4 font-bold text-[#205960]" >
-           <h4 > 5 أيام</h4>
-          <h4>رد</h4>
+          <div className="pl-4 font-bold text-[#205960]">
+            <h4> 5 أيام</h4>
+            <h4>رد</h4>
           </div>
           <div className="flex items-center gap-2">
             <div className="">
-              <h4 className="font-bold text-[#205960] text-right">
-              أية عمر 
-              </h4>
-         <p className="text-[#555555]">أريد شراء هذا المنتج</p>
+              <h4 className="font-bold text-[#205960] text-right">أية عمر</h4>
+              <p className="text-[#555555]">أريد شراء هذا المنتج</p>
             </div>
             <div className="images">
               <img
@@ -116,24 +103,27 @@ function DetailsProductHarajPage() {
         </div>
       </div>
 
-
       <div className="buttonInput flex justify-between my-[10vh] items-center">
         <div className="left">
-        <img
-                src={Images.sendBtn}
-                alt="sendBtn"
-                className="rounded-full w-[40px] h-[40px] cursor-pointer"
-              />
+          <img
+            src={Images.sendBtn}
+            alt="sendBtn"
+            className="rounded-full w-[40px] h-[40px] cursor-pointer"
+          />
         </div>
         <div className="w-[80%]">
-          <input type="text" placeholder="اكتب تعليقك" className="font-bold outline-none text-right bg-[#F1F1F1] rounded-lg w-[100%] p-4"/>
+          <input
+            type="text"
+            placeholder="اكتب تعليقك"
+            className="font-bold outline-none text-right bg-[#F1F1F1] rounded-lg w-[100%] p-4"
+          />
         </div>
         <div className="icon">
-        <img
-                src={Images.userBlue}
-                alt="userBlue"
-                className="rounded-full w-[50px] h-[50px]"
-              />
+          <img
+            src={Images.userBlue}
+            alt="userBlue"
+            className="rounded-full w-[50px] h-[50px]"
+          />
         </div>
       </div>
     </div>
