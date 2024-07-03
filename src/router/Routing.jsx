@@ -37,6 +37,7 @@ import CartPage from "../page/dashboard/Cart/CartPage";
 import NotificationPage from "../page/dashboard/Notification/NotificationPage";
 import MessagesPage from "../page/dashboard/Messages/MessagesPage";
 import MessagePage from "../page/dashboard/Message/MessagePage";
+import NoAddressPage from "../page/dashboard/no address/NoAddressPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -188,6 +189,10 @@ const router = createBrowserRouter([
             {
                 path: "messages",
                 element:<FormLayoutProvider><MessagesPage /></FormLayoutProvider>,
+            },
+            {
+                path: "no_address",
+                element:<FormLayoutProvider><NoAddressPage /></FormLayoutProvider>,
             }
         ],
     },

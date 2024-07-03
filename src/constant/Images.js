@@ -53,21 +53,29 @@ import user from "../assets/images/menu/user.png";
 import logout from "../assets/images/menu/logout.png";
 import grayChair from "../assets/images/grayChair.png";
 
-
 import plus from "../assets/images/plus.png";
 import minus from "../assets/images/min.png";
 
+import noAddress from "../assets/images/noAddress.png";
+import addBtn from "../assets/images/addBtn.png";
+
 export default {
-  watch,plus,minus,
+  watch,
+  plus,
+  minus,
   call,
-  message,logout,
+  noAddress,
+  addBtn,
+  message,
+  logout,
   cal,
   whiteStar,
   callus,
   click,
   correct,
   heart,
-  info,grayChair,
+  info,
+  grayChair,
   msg,
   monitor,
   share,
