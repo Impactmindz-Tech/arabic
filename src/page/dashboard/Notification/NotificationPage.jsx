@@ -4,7 +4,7 @@ import Header from "../../../components/Header.jsx";
 const NotificationPage = () => {
   return (
     <>
-      <div className="w-[90%] m-auto">
+      <div className="w-[90%] m-auto pb-20">
         <Header />
         <BackButtonMenu text="الاشعارات" link="/" />
 

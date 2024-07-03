@@ -1,16 +1,17 @@
+import { Link } from "react-router-dom";
 import CartCard from "../../../components/Cart/CartCard";
 import Header from "../../../components/Header";
 import Images from "../../../constant/Images";
 function CartPage() {
   return (
-    <div className="w-[90%] m-auto">
+    <div className="w-[90%] m-auto pb-20">
       <Header />
-      <div className="flex justify-end gap-2 items-center my-6 z-10">
+      <div className="flex justify-end gap-2 items-center my-6 z-10 sm:my-0">
         <p className="cursor-pointer text-[#525252] font-bold">السلة</p>
       </div>
 
-      <div className="border border-[#D24325] relative w-[100%] rounded-2xl flex flex-wrap py-10 mt-[80px]">
-        <div className="flex gap-2 justify-center  border rounded-full border-[#D24325] bg-[#FDD7CF] w-[30%] py-2 absolute -top-6 left-[16vw]">
+      <div className="border border-[#D24325] relative w-[100%] rounded-2xl flex flex-wrap py-10 mt-[80px] sm:mt-10">
+        <div className="flex gap-2 justify-center  border rounded-full border-[#D24325] bg-[#FDD7CF] w-[30%] py-2 absolute -top-6 left-[16vw] sm:w-[50vw]">
           <h2 className="font-bold">محلات كيدز </h2>
           <img
             src={Images.mall1}
@@ -28,8 +29,9 @@ function CartPage() {
         </div>
       </div>
 
-      <div className="border border-[#D24325] relative w-[100%] rounded-2xl flex flex-wrap py-10 mt-[80px]">
-        <div className="flex gap-2 justify-center  border rounded-full border-[#D24325] bg-[#FDD7CF] w-[30%] py-2 absolute -top-6 left-[16vw]">
+    
+      <div className="border border-[#D24325] relative w-[100%] rounded-2xl flex flex-wrap py-10 mt-[80px] sm:mt-10">
+        <div className="flex gap-2 justify-center  border rounded-full border-[#D24325] bg-[#FDD7CF] w-[30%] py-2 absolute -top-6 left-[16vw] sm:w-[50vw]">
           <h2 className="font-bold">محلات كيدز </h2>
           <img
             src={Images.mall1}
@@ -46,15 +48,17 @@ function CartPage() {
           <div className="font-bold">الاجمالى</div>
         </div>
       </div>
+
 
       <div className="flex justify-between my-4 mb-9 ">
         <div className="">الكل</div>
         <div className="font-bold text-[#205960]">المتجر </div>
       </div>
 
-      <div className="flex justify-between">
-        <button className="GreenBtnSubmit p-2 px-10">اكمال الطلب</button>
-        <button className="RedBtnSubmit p-2 px-10"> الغاء</button>
+      <div className="flex justify-between gap-2">
+        <button className="GreenBtnSubmit p-2 px-10 sm:px-5">اكمال الطلب</button>
+       <Link to="/dashboard/complete_order">
+      <button className="RedBtnSubmit p-2 px-10 sm:px-5"> الغاء</button>  </Link>
       </div>
     </div>
   );

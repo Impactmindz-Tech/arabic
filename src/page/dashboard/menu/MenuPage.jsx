@@ -4,7 +4,7 @@ import Header from "../../../components/Header.jsx";
 const MenuPage = () => {
   return (
     <>
-      <div className="w-[90%] m-auto">
+      <div className="w-[90%] m-auto pb-20">
         <Header />
         <div className="flex justify-end gap-2 items-center my-6 z-10">
           <p className="cursor-pointer text-[#525252] font-bold">القائمة</p>

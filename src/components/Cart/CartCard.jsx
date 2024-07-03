@@ -11,11 +11,11 @@ function CartCard() {
         setCount(++count)
     }
   return (
-    <>
+    
        <div className="cardShadow w-[96%] m-auto flex justify-between items-center p-3 mt-[10px]">
-          <div className="price font-bold text-[#D96951] p-2 flex flex-col gap-y-4">
+          <div className="price font-bold text-[#D96951] p-2 flex flex-col gap-y-4 ">
             200 ريال
-            <div className="deleteIcon text-center px-3">
+            <div className="deleteIcon text-center px-3 sm:px-1">
               <img
                 src={Images.deleteIcon}
                 alt="delete icon"
@@ -24,21 +24,21 @@ function CartCard() {
             </div>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-end gap-4">
             <div className="text-right">
               <h3 className="mb-4">تيشيرت رصاصى </h3>
-              <div className="border border-[#D24325] rounded-full flex px-1 w-[160px] items-center justify-between">
-                <div className="left"><img src={Images.minus} alt="minus sign" className="cursor-pointer" onClick={()=>decrement()}/></div>
-                <div className="input text-[#D24325] font-bold">{count}</div>
-                <div className="right"><img src={Images.plus} alt="plus sign" className="cursor-pointer" onClick={()=>Increment()}/></div>
+              <div className="border border-[#D24325] rounded-full flex px-1 w-[160px] sm:w-auto items-center justify-between">
+                <div className="flex justify-center left"><img src={Images.minus} alt="minus sign" className="cursor-pointer" onClick={()=>decrement()}/></div>
+                <div className="flex justify-center input  text-[#D24325] font-bold">{count}</div>
+                <div className="flex justify-center"><img src={Images.plus} alt="plus sign" className="cursor-pointer" onClick={()=>Increment()}/></div>
               </div>
             </div>
             <div className="img">
-              <img src={Images.jacket} alt="jacket" className="w-[80px]" />
+              <img src={Images.jacket} alt="jacket" className="w-[80px] sm:w-[15vw]" />
             </div>
           </div>
         </div>
-    </>
+    
   )
 }
 

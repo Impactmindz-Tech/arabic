@@ -8,7 +8,7 @@ import RateCardSwiper from "../../components/slider/RateCardSwiper";
 import CategoryDashboardCard from "../../components/cards/DashboardCategoryCard/Card";
 const Dashboard = () => {
   return (
-    <div className="pb-10">
+    <div className="pb-20">
       <div className="border border-lightGrey-300 px-3 py-3 w-full text-right rounded-xl flex items-center gap-2">
         <input
           type="text"

@@ -7,7 +7,7 @@ import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 function DetailsProduct() {
   return (
-    <div className="w-[90%] m-auto">
+    <div className="w-[90%] m-auto pb-10">
       <Header />
       <BackButtonMenu text="تفاصيل المنتج " link="/" />
 
@@ -19,14 +19,13 @@ function DetailsProduct() {
       </div>
 
       <div className="flex justify-between">
-        <div className="text-red-600 font-semibold">500 ريال</div>
-        <div className="text-green-900">“مستعمل”تيشيرت</div>
+        <div className="text-red-600 font-semibold"> 400 ريال</div>
+        <div className="text-green-900">طقم ولادى “جديد”</div>
       </div>
-      <p className="text-red-600 font-semibold text-right my-2">ملابس</p>
+      <p className="text-red-600 font-semibold text-right my-2">ملابس أطفال</p>
       <div className="flex justify-end mb-5">
-        <p className="text-[#373737] font-light  w-[80%]  text-right my-2 ">
-          طقم أطفال يلبس لحد سن 5 سنوات عبارة عن قميص وبنطلون ومتوفر بجميع
-          الالوان سارع بالحجز للحصول عليه
+        <p className="text-[#373737] font-light  w-[90%]  text-right my-2 ">
+        طقم أطفال يلبس لحد سن 5 سنوات عبارة عن قميص وبنطلون ومتوفر بجميع الالوان سارع بالحجز للحصول عليه
         </p>
       </div>
 
@@ -69,7 +68,9 @@ function DetailsProduct() {
         </div>
       </div>
 
-      <div className="btnSubmit my-10 text-center">أضف الى السلة</div>
+     <Link to="/dashboard/cart">
+
+      <div className="btnSubmit my-10 text-center">أضف الى السلة</div></Link>
     </div>
   );
 }
