@@ -9,7 +9,7 @@ const EditProfile = () => {
 
   return (
     <>
-      <div className="w-[90%] m-auto">
+      <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
         <Header />
         <BackButtonMenu text="تعديل الحساب" link="/" />
 

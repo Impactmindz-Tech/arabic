@@ -5,14 +5,14 @@ import Header from "../../../components/Header.jsx";
 const WalletPage = () => {
   return (
     <>
-      <div className="w-[90%] m-auto">
+      <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
         <Header />
         <BackButtonMenu text="محفظتى" link="/" />
 
         <div className="flex justify-center">
-          <div className="wallet px-8 py-5">
+          <div className="wallet px-8 py-5 sm:px-2 sm:py-2 sm:w-[50%]">
             <h1 className="text-right">محفظتى</h1>
-            <div className="flex gap-7 mt-6 items-center">
+            <div className="flex gap-7 mt-6 items-center sm:justify-end">
               <h2 className="text-right ">  100 ريال</h2>
               <div className="bg-[#D24325] rounded-full p-2 text-white ">
                 <LiaWalletSolid className="text-2xl" />
@@ -25,9 +25,11 @@ const WalletPage = () => {
             <div className="flex py-5 gap-5 ">
               <div className="text-right">
                
-                <h5 >
-                تم سحب 20 ريال للسلة لشراء طلب من متجر ملابس
-                </h5>
+              <div className="flex justify-end">
+            <h5 className="w-[90%] my-2 text-right">
+            تم سحب 20 ريال للسلة لشراء طلب من متجر ملابس
+            </h5>
+          </div>
                 <h5 className="font-bold text-[#205960]">
                 منذ 5 أيام
                 </h5>
@@ -47,9 +49,11 @@ const WalletPage = () => {
             <div className="flex py-5 gap-5 ">
               <div className="text-right">
                
-                <h5 >
-                تم سحب 20 ريال للسلة لشراء طلب من متجر ملابس
-                </h5>
+              <div className="flex justify-end">
+            <h5 className="w-[90%] my-2 text-right">
+            تم سحب 20 ريال للسلة لشراء طلب من متجر ملابس
+            </h5>
+          </div>
                 <h5 className="font-bold text-[#205960]">
                 منذ 1/3/2024
                 </h5>

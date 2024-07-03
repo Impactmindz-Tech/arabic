@@ -36,7 +36,7 @@
 }
 
 .wallet {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
 }
 .wallet2 {
@@ -214,5 +214,10 @@ justify-content: end;
     .MuiBox-root.css-1wnsr1i {
       width: 90%;
       margin: auto;
+    }
+
+    .MuiBox-root.css-ekhbh2 {
+      width: auto !important;
+      padding-bottom: 90px;
     }
 }

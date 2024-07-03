@@ -13,7 +13,7 @@ const AddProduct = () => {
   };
   return (
     <>
-      <div className="w-[90%] m-auto">
+      <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
         <Header />
 
         <BackButtonMenu text="اضافة حراج" link="/dashboard/my_product" />

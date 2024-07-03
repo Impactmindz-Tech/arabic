@@ -1,11 +1,10 @@
 import Images from "../../../constant/Images.js";
-import { Link } from "react-router-dom";
 import Header from "../../../components/Header.jsx";
 import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
 const MessagesPage = () => {
   return (
     <>
-      <div className="w-[90%] m-auto">
+      <div className="w-[90%] m-auto pb-20">
         <Header />
         <BackButtonMenu text="الرسائل" link={"/"} />
 

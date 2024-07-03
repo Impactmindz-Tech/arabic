@@ -6,7 +6,7 @@ import { LiaWalletSolid,LiaCoinsSolid } from "react-icons/lia";
 const Profile = () => {
   return (
     <>
-      <div className="w-[90%] m-auto">
+      <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
       <Header />
         <BackButtonMenu text="حسابى" link="/" />
 
@@ -45,10 +45,10 @@ const Profile = () => {
         </div>
 
 
-        <div className="flex justify-between">
-<div className="wallet px-10 py-5">
+        <div className="flex justify-between sm:gap-2">
+<div className="wallet px-10 py-5 sm:px-2 sm:py-2 sm:w-[49%]">
   <h1 className="text-right">محفظتى</h1>
-  <div className="flex gap-7 mt-6 items-center">
+  <div className="flex gap-7 mt-6 items-center sm:justify-end">
     <h2 className="text-right "> 100 ريال</h2>
     <div className="bg-[#D24325] rounded-full p-2 text-white ">
 <LiaWalletSolid className="text-2xl"/>
@@ -56,9 +56,9 @@ const Profile = () => {
   </div>
 </div>
 
-<div className="wallet px-10 py-5">
+<div className="wallet px-10 py-5 sm:px-2 sm:py-2 sm:w-[49%]">
   <h1 className="text-right">نقاطى</h1>
-  <div className="flex gap-7 mt-6 items-center">
+  <div className="flex gap-7 mt-6 items-center sm:justify-end">
     <h2 className="text-right ">  500 نقطة </h2>
     <div className="bg-[#205960] rounded-full p-2 text-white ">
 <LiaCoinsSolid className="text-2xl"/>

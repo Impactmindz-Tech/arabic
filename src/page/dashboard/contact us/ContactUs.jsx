@@ -5,17 +5,17 @@ import Images from "../../../constant/Images.js";
 const EditProduct = () => {
   return (
     <>
-      <div className="w-[90%] m-auto">
+      <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
         <Header />
         <BackButtonMenu text="تواصل معنا" link="/" />
 
         {/* note image */}
         <div className="flex justify-center">
-          <div className="flex justify-center w-40 h-40">
+          <div className="flex justify-center">
             <img
               src={Images.notes}
               alt={Images.notes}
-              className="w-[100%] h-[100%] object-contain"
+              className="w-40 h-40 object-contain"
             />
           </div>
         </div>
