@@ -51,6 +51,7 @@ import monitor from "../assets/images/menu/monitor.png";
 import share from "../assets/images/menu/share.png";
 import user from "../assets/images/menu/user.png";
 import logout from "../assets/images/menu/logout.png";
+import grayChair from "../assets/images/grayChair.png";
 
 
 import plus from "../assets/images/plus.png";
@@ -66,7 +67,7 @@ export default {
   click,
   correct,
   heart,
-  info,
+  info,grayChair,
   msg,
   monitor,
   share,
