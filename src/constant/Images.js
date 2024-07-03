@@ -59,9 +59,18 @@ import minus from "../assets/images/min.png";
 import noAddress from "../assets/images/noAddress.png";
 import addBtn from "../assets/images/addBtn.png";
 
+import giftRed from "../assets/images/giftRed.png";
+import menu from "../assets/images/menu.png";
+import cartWhite from "../assets/images/cartWhite.png";
+import home from "../assets/images/home.png";
+
 export default {
   watch,
   plus,
+  giftRed,
+  menu,
+  cartWhite,
+  home,
   minus,
   call,
   noAddress,

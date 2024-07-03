@@ -1,3 +1,4 @@
+import BottomMenu from "./BottomMenu"
 
 function FormLayoutProvider({ children }) {
   return (
@@ -5,6 +6,8 @@ function FormLayoutProvider({ children }) {
     
       <main className='pt-5'>
         {children}
+
+        <BottomMenu />
       </main>
     </div>
   )

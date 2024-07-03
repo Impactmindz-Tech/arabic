@@ -23,8 +23,8 @@ const SwiperSlider = ({ imagesslider, category }) => {
                                     :
                                     <SwiperSlide key={index}>
                                         <div className=''>
-                                            <img className='w-24 h-24' src={item.img} alt="" />
-                                            <p className='font-semibold pt-3 pl-5'>{item.title}</p>
+                                            <img className='sm:h-10 w-24 h-24' src={item.img} alt="" />
+                                            <p className='font-semibold pt-3 pl-5 sm:pl-0 sm:font-normal'>{item.title}</p>
                                         </div>
                                     </SwiperSlide>
                             }

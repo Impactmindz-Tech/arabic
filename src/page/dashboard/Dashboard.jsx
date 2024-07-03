@@ -5,9 +5,10 @@ import chairImages from "../../constant/catgeroryiages";
 import { FaRegEye } from "react-icons/fa";
 
 import RateCardSwiper from "../../components/slider/RateCardSwiper";
+import CategoryDashboardCard from "../../components/cards/DashboardCategoryCard/Card";
 const Dashboard = () => {
   return (
-    <>
+    <div className="pb-10">
       <div className="border border-lightGrey-300 px-3 py-3 w-full text-right rounded-xl flex items-center gap-2">
         <input
           type="text"
@@ -27,6 +28,8 @@ const Dashboard = () => {
           <div className="font-bold text-[#205960]">التصنيفات</div>
         </div>
         <SwiperSlider category={true} imagesslider={chairImages} />
+
+        
         <div className="flex justify-between my-4 mb-9 ">
           <div className="text-[#D24325]">الكل</div>
           <div className="font-bold text-[#205960]">الاعلانات</div>
@@ -42,7 +45,8 @@ const Dashboard = () => {
           />
         </div>
 
-        <div className="details py-2 flex justify-between">
+      
+        <div className="details py-5 flex justify-between items-start">
           <div className="flex items-center gap-2">
             <div className="text-[#B2B2B2]">10</div>
             <div className="text-[#B2B2B2]">
@@ -60,73 +64,48 @@ const Dashboard = () => {
               <img
                 src={Images.chair_Img}
                 alt="chair_Img"
-                className="w-12 h-12"
+                className="w-12 h-12 sm:h-auto sm:w-auto"
               />
             </div>
           </div>
         </div>
       </div>
 
+
+
+
+
       <div className="flex justify-between my-4 mb-9 ">
         <div className="text-[#D24325]">الكل</div>
         <div className="font-bold text-[#205960]">الأكثر مبيعا</div>
       </div>
 
-      <div className="flex flex-wrap  justify-end gap-4">
+
+
+
+
+
+      <div className="flex gap-4">
         <RateCardSwiper />
       </div>
+
+
+
+
 
       <div className="flex justify-between my-4 mb-9 ">
         <div className="text-[#D24325]">الكل</div>
         <div className="font-bold text-[#205960]">المتجر </div>
       </div>
 
-      <div className="flex gap-3 flex-wrap justify-center">
-        <div className="w-[22%]">
-          <img src={Images.car} alt="car" className="object-fit w-[100%] " />
-        </div>
-        <div className="w-[22%]">
-          <img
-            src={Images.watch}
-            alt="watch"
-            className="object-fit w-[100%] "
-          />
-        </div>
-        <div className="w-[22%]">
-          <img
-            src={Images.mall2}
-            alt="mall2"
-            className="object-fit w-[100%] "
-          />
-        </div>
-        <div className="w-[22%]">
-          <img src={Images.car} alt="car" className="object-fit w-[100%] " />
-        </div>
-        <div className="w-[22%]">
-          <img src={Images.shoe} alt="shoe" className="object-fit w-[100%] " />
-        </div>
-
-        <div className="w-[22%]">
-          <img
-            src={Images.mall1}
-            alt="mall1"
-            className="object-fit w-[100%] "
-          />
-        </div>
-        <div className="w-[22%]">
-          <img
-            src={Images.watch}
-            alt="watch"
-            className="object-fit w-[100%] "
-          />
-        </div>
-        <div className="w-[22%]">
-          <img
-            src={Images.mall2}
-            alt="mall2"
-            className="object-fit w-[100%] "
-          />
-        </div>
+      <div className="flex sm:gap-1 gap-3 flex-wrap justify-center">
+        <CategoryDashboardCard />
+        <CategoryDashboardCard />
+        <CategoryDashboardCard />
+        <CategoryDashboardCard />
+        <CategoryDashboardCard />
+        <CategoryDashboardCard />
+        
       </div>
 
       <div className="flex justify-between my-4 mb-9 ">
@@ -144,7 +123,7 @@ const Dashboard = () => {
       <div className="flex flex-wrap  justify-end gap-4">
         <RateCardSwiper />
       </div>
-    </>
+    </div>
   );
 };
 

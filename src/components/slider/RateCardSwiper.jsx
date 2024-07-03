@@ -2,13 +2,31 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import RateCards from "../cards/RateCard/RateCards";
 
+
+const breakPoints={
+  // when window width is >= 320px
+  200: {
+    slidesPerView: 1,
+    spaceBetween: 0
+  },
+  // when window width is >= 480px
+  480: {
+    slidesPerView: 2,
+    spaceBetween: 10
+  },
+  // when window width is >= 640px
+  640: {
+    slidesPerView: 2,
+    spaceBetween: 10
+  }
+};
 const RateCardSwiper = () => {
   return (
     <Swiper
-      spaceBetween={5}
+      spaceBetween={10}
       slidesPerView={3}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
+      breakpoints={breakPoints}
+
     >
       <SwiperSlide>
         <RateCards />
