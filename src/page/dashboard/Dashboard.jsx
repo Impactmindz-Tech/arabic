@@ -6,6 +6,7 @@ import { FaRegEye } from "react-icons/fa";
 
 import RateCardSwiper from "../../components/slider/RateCardSwiper";
 import CategoryDashboardCard from "../../components/cards/DashboardCategoryCard/Card";
+import CategoryImageSlider from "../../components/slider/CategoryImageSlider";
 const Dashboard = () => {
   return (
     <div className="pb-20">
@@ -27,7 +28,7 @@ const Dashboard = () => {
           <div className="text-[#D24325]">الكل</div>
           <div className="font-bold text-[#205960]">التصنيفات</div>
         </div>
-        <SwiperSlider category={true} imagesslider={chairImages} />
+        <CategoryImageSlider category={true} imagesslider={chairImages} />
 
         <div className="flex justify-between my-4 mb-9 ">
           <div className="text-[#D24325]">الكل</div>
