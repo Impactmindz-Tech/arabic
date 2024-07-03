@@ -52,8 +52,12 @@ import share from "../assets/images/menu/share.png";
 import user from "../assets/images/menu/user.png";
 import logout from "../assets/images/menu/logout.png";
 
+
+import plus from "../assets/images/plus.png";
+import minus from "../assets/images/min.png";
+
 export default {
-  watch,
+  watch,plus,minus,
   call,
   message,logout,
   cal,

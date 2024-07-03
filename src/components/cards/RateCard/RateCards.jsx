@@ -1,8 +1,14 @@
 import { TiStar } from "react-icons/ti";
 import Images from "../../../constant/Images";
+import { Link } from "react-router-dom";
 function RateCards() {
   return (
     <div className="cardShadow py-5 relative m-2">
+
+  
+    <Link to="/dashboard/details_product">
+
+   
     <div className="p-3 flex justify-center relative">
      
       <img
@@ -21,6 +27,7 @@ function RateCards() {
         <p className="text-[#D96951]">200 ريال</p>
       </div>
     </div>
+    </Link>
   </div>
 
   )

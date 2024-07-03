@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import Header from '../../../components/Header'
 import Images from '../../../constant/Images'
 
@@ -14,7 +15,8 @@ function CompleteOrder() {
     <p  className='text-center w-[50%] m-auto my-2'> مرحبا بك نحن سعداء بالتعامل معك فى تطبيق ادباى ويمكنك استخدام تطبقنا فى اى وقت </p>
     
     <div className="flex justify-center my-10">
-    <button className='btnSubmit w-[50%]'>العودة الى الرئيسية</button>
+   <Link to="/dashboard/orders" className="flex justify-center w-[100%]">
+    <button className='btnSubmit w-[100%]'>العودة الى الرئيسية</button></Link>
     </div>
     </>
   )

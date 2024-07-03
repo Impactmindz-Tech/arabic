@@ -33,6 +33,7 @@ import VendorProfilePage from "../page/dashboard/Vendor Profile/VendorProfilePag
 import AdsPage from "../page/dashboard/ads/AdsPage";
 import DetailsProductHarajPage from "../page/dashboard/Details Product Haraj/DetailsProductHarajPage";
 import MenuPage from "../page/dashboard/menu/MenuPage";
+import CartPage from "../page/dashboard/Cart/CartPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -167,6 +168,10 @@ const router = createBrowserRouter([
             {
                 path: "menu",
                 element:<FormLayoutProvider><MenuPage /></FormLayoutProvider>,
+            },
+            {
+                path: "cart",
+                element:<FormLayoutProvider><CartPage /></FormLayoutProvider>,
             }
         ],
     },

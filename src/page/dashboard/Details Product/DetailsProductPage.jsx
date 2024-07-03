@@ -4,6 +4,7 @@ import Header from "../../../components/Header.jsx";
 import Images from "../../../constant/Images.js";
 import { IoMdStar } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 function DetailsProduct() {
   return (
     <div className="w-[90%] m-auto">
@@ -34,11 +35,14 @@ function DetailsProduct() {
         <div className="cardShadow flex justify-between w-full p-4 ">
           <div className="flex gap-3 items-end">
             <img src={Images.call} alt="call" className=" cursor-pointer" />
+           <Link to="/dashboard/details_product_haraj">
+
             <img
               src={Images.message}
               alt="message"
               className=" cursor-pointer"
             />
+           </Link>
           </div>
           <div className="flex items-center gap-2">
             <div className="">

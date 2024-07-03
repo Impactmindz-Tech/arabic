@@ -96,6 +96,13 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.text-\[\#D
   background-color: #d24325;
   border-radius: 60px;
 }
+
+.GreenBtnSubmit {
+  cursor: pointer;
+  color: white;
+  background-color: #205960;
+  border-radius: 60px;
+}
 .GrayBtn {
   cursor: pointer;
   color: rgb(0, 0, 0);
