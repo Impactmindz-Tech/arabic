@@ -9,11 +9,9 @@ const NotificationPage = () => {
         <BackButtonMenu text="الاشعارات" link="/" />
 
         <div className="my-6 gap-y-5 flex flex-wrap justify-end">
-       
-
-          <NotificationCard />
-          <NotificationCard />
-          <NotificationCard />
+          <NotificationCard active={true}/>
+          <NotificationCard active={false}/>
+          <NotificationCard active={false}/>
         </div>
       </div>
     </>

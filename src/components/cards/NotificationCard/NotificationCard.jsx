@@ -1,8 +1,9 @@
 import Images from '../../../constant/Images'
 
-function NotificationCard() {
+function NotificationCard({active}) {
   return (
-    <div className="wallet2 w-full flex  justify-center bg-[#F5F5F5] hover:bg-[#F5F5F5]">
+    <div className={`wallet2 w-full flex justify-center hover:bg-[#F5F5F5] ${active ? "bg-[#F5F5F5]" : ""}`}>
+    {/* <div className="wallet2 w-full flex  justify-center bg-[#F5F5F5] hover:bg-[#F5F5F5]"> */}
     <div className="flex py-5 gap-2 sm:p-2">
       <div className="flex flex-col">
         <div className="flex justify-between gap-2 sm:pl-1">

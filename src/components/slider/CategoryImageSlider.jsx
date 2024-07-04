@@ -3,12 +3,12 @@ import "swiper/css";
 const breakPoints = {
   // when window width is >= 320px
   200: {
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 2,
   },
   // when window width is >= 480px
   480: {
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 10,
   },
   // when window width is >= 640px
@@ -26,11 +26,14 @@ const CategoryImageSlider = ({ imagesslider, category }) => {
     >
       {imagesslider?.map((item, index) => {
         return (
-         
-            <SwiperSlide key={index}>
-              <img className="w-full" src={item.img} alt="" />
-            </SwiperSlide>
-        
+          <SwiperSlide key={index}>
+            <div className="">
+              <img className="sm:h-[20vw] sm:w-[20vw] w-24 h-24" src={item.img} alt="" />
+              <p className="font-semibold pt-3 pl-7 sm:pl-2 sm:font-normal">
+                {item.title}
+              </p>
+            </div>
+          </SwiperSlide>
         );
       })}
     </Swiper>
