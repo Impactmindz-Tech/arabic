@@ -42,7 +42,7 @@ const AddProduct = () => {
         </div>
         <form className="flex flex-col mt-6 gap-y-2" noValidate>
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="product_name"
           >
             اسم المنتج
@@ -56,7 +56,7 @@ const AddProduct = () => {
           </div>
 
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="product_price"
           >
             السعر
@@ -70,7 +70,7 @@ const AddProduct = () => {
           </div>
 
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="category"
           >
             الفئة
@@ -89,7 +89,7 @@ const AddProduct = () => {
           </div>
 
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="sub_category"
           >
             الفئة الفرعية
@@ -108,7 +108,7 @@ const AddProduct = () => {
           </div>
 
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="product_details"
           >
             تفاصيل المنتج{" "}

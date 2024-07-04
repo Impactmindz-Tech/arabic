@@ -7,7 +7,7 @@ const EditProduct = () => {
     <>
       <div className="pb-20">
         <Header />
-        <BackButtonMenu text="تواصل معنا" link="/" />
+        <BackButtonMenu text="تواصل معنا" link="/dashboard/home" />
 
         {/* note image */}
         <div className="flex justify-center">
@@ -21,7 +21,7 @@ const EditProduct = () => {
         </div>
         <form className="flex flex-col mt-6 gap-y-2" noValidate>
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="names"
           >
             الاسم
@@ -36,7 +36,7 @@ const EditProduct = () => {
           </div>
 
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="mobile"
           >
             رقم الجوال
@@ -51,7 +51,7 @@ const EditProduct = () => {
           </div>
 
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="topic"
           >
             الموضوع
@@ -66,7 +66,7 @@ const EditProduct = () => {
           </div>
 
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="message"
           >
             الرسالة{" "}

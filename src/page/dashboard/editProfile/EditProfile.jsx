@@ -11,7 +11,7 @@ const EditProfile = () => {
     <>
       <div className="pb-20">
         <Header />
-        <BackButtonMenu text="تعديل الحساب" link="/" />
+        <BackButtonMenu text="تعديل الحساب" link="/dashboard/profile" />
 
         <img
           className="w-[80px] mx-auto h-[80px] border rounded-full border-[#A9BCC0]"
@@ -21,7 +21,7 @@ const EditProfile = () => {
 
         <form className="flex flex-col mt-6 gap-y-2" noValidate>
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="names"
           >
             الاسم
@@ -36,7 +36,7 @@ const EditProfile = () => {
           </div>
 
           <label
-            className="2xl:text-sm text-right  bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+            className="2xl:text-sm text-right font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
             htmlFor="mobile"
           >
             رقم الجوال
@@ -52,7 +52,7 @@ const EditProfile = () => {
 
           <div className="mt-3">
             <label
-              className="2xl:text-sm text-right block bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+              className="2xl:text-sm text-right font-bold block bg-white text-input-label -top-2 left-5 text-[11px] px-1"
               htmlFor="new_password"
             >
               كلمة المرور الجديدة{" "}
@@ -76,7 +76,7 @@ const EditProfile = () => {
           </div>
           <div className="mt-3">
             <label
-              className="2xl:text-sm text-right block bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+              className="2xl:text-sm text-right block font-bold bg-white text-input-label -top-2 left-5 text-[11px] px-1"
               htmlFor="confirm_password"
             >
               {" "}

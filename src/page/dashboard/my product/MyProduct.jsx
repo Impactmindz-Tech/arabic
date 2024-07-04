@@ -5,7 +5,7 @@ function MyProduct() {
   return (
     <div className="pb-20">
       <Header />
-      <BackButtonMenu text="حراجى" link="/" />
+      <BackButtonMenu text="حراجى" link="/dashboard/home" />
 
       {/* product section */}
       <div className="flex flex-wrap  justify-center gap-4 sm:gap-2">

@@ -1,25 +1,25 @@
-import Auth_Img from "../assets/images/auth_img.png";
+import Auth_Img from "../assets/images/auth_img.svg";
 import login_Img from "../assets/images/login_img.png";
 import bell_Img from "../assets/images/bell_icon.svg";
-import client_Img from "../assets/images/clit_ig.png";
+import client_Img from "../assets/images/clit_ig.svg";
 import search_Img from "../assets/images/search_icon.svg";
 import slider_Img from "../assets/images/slider.png";
 import chair_Img from "../assets/images/chair.png";
 import rightArrow from "../assets/images/rightArrow.svg";
-import uploadImage from "../assets/images/uploadImage.png";
-import notes from "../assets/images/notes.png";
+import uploadImage from "../assets/images/uploadImage.svg";
+import notes from "../assets/images/notes.svg";
 import jacket from "../assets/images/items/jacket.svg";
-import child from "../assets/images/items/child.png";
+import child from "../assets/images/items/child.svg";
 import gift from "../assets/images/gift.png";
 import leftarrow from "../assets/images/leftarrow.svg";
 import location from "../assets/images/location.png";
-import editIcon from "../assets/images/edit.png";
+import editIcon from "../assets/images/edit.svg";
 import deleteIcon from "../assets/images/deleteIcon.svg";
-import arrowDown from "../assets/images/arrowDown.png";
+import arrowDown from "../assets/images/arrowDown.svg";
 import money from "../assets/images/money.png";
 import banner from "../assets/images/banner.svg";
 import banner2 from "../assets/images/banner2.svg";
-import orderComplete from "../assets/images/orderComplete.png";
+import orderComplete from "../assets/images/orderComplete.svg";
 
 import watch from "../assets/images/items/watch.png";
 import shoe from "../assets/images/items/shoe.png";
@@ -29,17 +29,17 @@ import car from "../assets/images/items/car.svg";
 import chairText from "../assets/images/categoryImg/chair.png";
 import clothText from "../assets/images/categoryImg/cloth.png";
 
-import cal from "../assets/images/cal.png";
-import clock from "../assets/images/clock.png";
-import orderNumber from "../assets/images/orderNumber.png";
-import cart from "../assets/images/cart.png";
+import cal from "../assets/images/cal.svg";
+import clock from "../assets/images/clock.svg";
+import orderNumber from "../assets/images/orderNumber.svg";
+import cart from "../assets/images/cart.svg";
 import whiteStar from "../assets/images/whiteStar.svg";
-import userBlue from "../assets/images/userBlue.png";
+import userBlue from "../assets/images/userBlue.svg";
 
 import call from "../assets/images/call.svg";
 import message from "../assets/images/message.svg";
 import whiteArrowRight from "../assets/images/whiteArrowRight.svg";
-import sendBtn from "../assets/images/sendBtn.png";
+import sendBtn from "../assets/images/sendBtn.svg";
 
 import callus from "../assets/images/menu/callus.svg";
 import click from "../assets/images/menu/click.svg";

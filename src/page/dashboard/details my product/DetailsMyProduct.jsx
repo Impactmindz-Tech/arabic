@@ -7,7 +7,7 @@ function DetailsMyProduct() {
   return (
     <div className="pb-20">
      <Header />
-        <BackButtonMenu text="تفاصيل المنتج" link="/" />
+        <BackButtonMenu text="تفاصيل المنتج" link="/dashboard/my_product" />
 
       <p className="flex justify-end">
         <Link to="/dashboard/edit_product"><FaRegEdit className="text-[#D24325] cursor-pointer text-2xl" /></Link>
