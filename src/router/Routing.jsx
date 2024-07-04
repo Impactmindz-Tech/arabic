@@ -39,6 +39,8 @@ import MessagesPage from "../page/dashboard/Messages/MessagesPage";
 import MessagePage from "../page/dashboard/Message/MessagePage";
 import NoAddressPage from "../page/dashboard/no address/NoAddressPage";
 import NewPassword from "../page/auth/NewPassword";
+import SplashPage from "../page/home/SplashPage";
+import OnBoardingPage from "../page/home/OnBoardingPage";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -72,6 +74,14 @@ const router = createBrowserRouter([
     {
         path: "/forgetpassword",
         element: <AuthLayout><ForgetPassword /></AuthLayout>,
+    },
+    {
+        path: "/splash",
+        element: <SplashPage />,
+    },
+    {
+        path: "/on_broading_page",
+        element: <OnBoardingPage />,
     },
     {
         path: "/verify_otp",

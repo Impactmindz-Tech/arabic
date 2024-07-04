@@ -63,8 +63,19 @@ import giftRed from "../assets/images/giftRed.svg";
 import menu from "../assets/images/menu.svg";
 import cartWhite from "../assets/images/cartWhite.svg";
 import home from "../assets/images/home.svg";
+import Logo from "../assets/images/Logo.svg";
+import sponsor from "../assets/images/sponsor.svg";
+
+import boarding1 from "../assets/images/boarding1.svg";
+import boarding2 from "../assets/images/boarding2.svg";
+import boarding3 from "../assets/images/boarding3.svg";
 
 export default {
+  Logo,
+  boarding1,
+  boarding2,
+  boarding3,
+  sponsor,
   watch,
   plus,
   giftRed,
