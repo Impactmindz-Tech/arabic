@@ -23,18 +23,23 @@ const MessagePage = () => {
 
 
 
-          <div className="left ">
+          <div className="left">
+          <div className="main">
             <div className="ShapesLeft">محتوى الشات محتوى الشات</div>
             <div className="text-right w-[100%] text-[#555555] pr-5 py-1">
               2:12 AM
             </div>
           </div>
+         
+          </div>
 
           {/* right */}
           <div className="right">
+          <div className="main">
             <div className="ShapesRight">محتوى الشات محتوى الشات</div>
             <div className="text-left w-[100%] text-[#555555] pl-5 py-1">
               2:12 AM
+            </div>
             </div>
           </div>
         </div>

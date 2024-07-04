@@ -136,11 +136,13 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
 }
+.left {
+ 
+  display: flex;
+  justify-content: end;
+}
 
 .ShapesLeft {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
   color: white;
   border-top-left-radius: 60px;
@@ -153,6 +155,7 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
 
 .right {
   display: flex;
+  justify-content: start;
 }
 .ShapesRight {
   display: flex;
@@ -166,9 +169,6 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
   background-color: #f1f1f1;
 }
 
-.left {
-  display: flex;
-}
 
 .bottomMenuBar {
   max-width: 750px;
