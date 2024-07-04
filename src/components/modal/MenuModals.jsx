@@ -1,8 +1,12 @@
 import { Slide, Box, IconButton, ClickAwayListener } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "react-router-dom";
+import {  useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const MenuModals = ({ openModal, setOpenModal }) => {
+  const location = useLocation();
+
   const handleClose = () => {
     setOpenModal(false);
   };
@@ -12,6 +16,11 @@ const MenuModals = ({ openModal, setOpenModal }) => {
       handleClose();
     }
   };
+
+  useEffect(() => {
+    // Close the menu when the location changes
+    handleClose();
+  }, [location]);
 
   return (
     <div className="">
