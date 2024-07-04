@@ -54,11 +54,15 @@ import NoAddressPage from "../page/dashboard/no address/NoAddressPage";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <AuthLayout><Login /></AuthLayout>,
+        element: <DashboardLayout><Dashboard /></DashboardLayout>,
     },
     {
         path: "/signup",
         element: <AuthLayout><SignUp /></AuthLayout>,
+    },
+    {
+        path: "/login",
+        element: <AuthLayout><Login /></AuthLayout>,
     },
     {
         path: "/forgetpassword",

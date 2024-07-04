@@ -7,7 +7,7 @@ const WalletPage = () => {
     <>
       <div className="pb-20">
         <Header />
-        <BackButtonMenu text="محفظتى" link="/" />
+        <BackButtonMenu text="محفظتى" link="/dashboard/profile" />
 
         <div className="flex justify-center">
           <div className="wallet px-8 py-5 sm:px-2 sm:py-2 sm:w-[50%]">

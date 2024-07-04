@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom"
 import Images from "../constant/Images"
+import MenuModals from "../components/modal/MenuModals"
+import { useState } from "react"
 
 function BottomMenu() {
+   const[openModal,setOpenModal]=useState(false);
   return (
    // 
     <div className="sm:w-[98%] bottomMenuBar sm:left-1 fixed bottom-0 left-50  p-4 bg-[#205960] z-50 rounded-full">
         <div className="container flex justify-evenly">
-            <div className="icon">
-               <Link to="">
+            <div className="icon" onClick={()=>setOpenModal(true)}>
+               
                <img src={Images.menu} alt="menu" className="sm:w-4 sm:h-4 w-7 h-7 object-cover"/>
-               </Link> 
+                
             </div>
 
             <div className="icon">
@@ -31,6 +34,9 @@ function BottomMenu() {
                </Link> 
             </div>
         </div>
+
+
+        <MenuModals openModal={openModal} setOpenModal={setOpenModal}/>
     </div>
   )
 }

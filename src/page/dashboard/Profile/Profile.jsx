@@ -1,16 +1,15 @@
-
 import Images from "../../../constant/Images.js";
 import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
 import Header from "../../../components/Header.jsx";
-import { LiaWalletSolid,LiaCoinsSolid } from "react-icons/lia";
+import { LiaWalletSolid, LiaCoinsSolid } from "react-icons/lia";
+import { Link } from "react-router-dom";
 const Profile = () => {
   return (
     <>
       <div className="pb-20">
-      <Header />
-        <BackButtonMenu text="حسابى" link="/" />
+        <Header />
+        <BackButtonMenu text="حسابى" link="/dashboard/home" />
 
-       
         <div className="flex justify-end">
           <div className="flex gap-4 items-center">
             <div className="details">
@@ -44,67 +43,84 @@ const Profile = () => {
           </div>
         </div>
 
-
         <div className="flex justify-between sm:gap-2">
-<div className="wallet px-10 py-5 sm:px-2 sm:py-2 sm:w-[49%]">
-  <h1 className="text-right">محفظتى</h1>
-  <div className="flex gap-7 mt-6 items-center sm:justify-end">
-    <h2 className="text-right "> 100 ريال</h2>
-    <div className="bg-[#D24325] rounded-full p-2 text-white ">
-<LiaWalletSolid className="text-2xl"/>
-    </div>
-  </div>
-</div>
 
-<div className="wallet px-10 py-5 sm:px-2 sm:py-2 sm:w-[49%]">
-  <h1 className="text-right">نقاطى</h1>
-  <div className="flex gap-7 mt-6 items-center sm:justify-end">
-    <h2 className="text-right ">  500 نقطة </h2>
-    <div className="bg-[#205960] rounded-full p-2 text-white ">
-<LiaCoinsSolid className="text-2xl"/>
-    </div>
-  </div>
-</div>
+          <div className="wallet px-10 py-5 sm:px-2 sm:py-2 sm:w-[49%]">
+        <Link to="/dashboard/wallet">
+            <h1 className="text-right">محفظتى</h1>
+            <div className="flex gap-7 mt-6 items-center sm:justify-end">
+              <h2 className="text-right "> 100 ريال</h2>
+              <div className="bg-[#D24325] rounded-full p-2 text-white ">
+                <LiaWalletSolid className="text-2xl" />
+              </div>
+            </div>
+            </Link>
+          </div>
+
+          <div className="wallet px-10 py-5 sm:px-2 sm:py-2 sm:w-[49%] cursor-pointer">
+          <Link to="/dashboard/coins">
+            <h1 className="text-right">نقاطى</h1>
+            <div className="flex gap-7 mt-6 items-center sm:justify-end">
+              <h2 className="text-right "> 500 نقطة </h2>
+              <div className="bg-[#205960] rounded-full p-2 text-white ">
+                <LiaCoinsSolid className="text-2xl" />
+              </div>
+            </div>
+            </Link>
+          </div>
         </div>
 
-
-
         <div className="menus my-5 gap-y-5">
-          <div className="flex w-full cursor-pointer border-b border-[#DADADA] justify-between py-5" >
-            <div className="text-3xl"><img src={Images.leftarrow} alt={Images.leftarrow} /></div>
+          <div className="flex w-full cursor-pointer border-b border-[#DADADA] justify-between py-5">
+            <div className="text-3xl">
+              <img src={Images.leftarrow} alt={Images.leftarrow} />
+            </div>
             <div className="flex gap-3">
-            <div className="font-medium">حراجى</div>
-            <div className="icon"> <img src={Images.gift} alt="gift" /></div>
+              <div className="font-medium">حراجى</div>
+              <div className="icon">
+                {" "}
+                <img src={Images.gift} alt="gift" />
+              </div>
             </div>
           </div>
 
-
-          <div className="flex cursor-pointer w-full border-b border-[#DADADA] justify-between py-5" >
-            <div className="text-3xl"><img src={Images.leftarrow} alt={Images.leftarrow} /></div>
+          <div className="flex cursor-pointer w-full border-b border-[#DADADA] justify-between py-5">
+            <div className="text-3xl">
+              <img src={Images.leftarrow} alt={Images.leftarrow} />
+            </div>
             <div className="flex gap-3">
-            <div className="font-medium">العناوين</div>
-            <div className="icon"> <img src={Images.location} alt="location" /></div>
+              <div className="font-medium">العناوين</div>
+              <div className="icon">
+                {" "}
+                <img src={Images.location} alt="location" />
+              </div>
             </div>
           </div>
 
-
-          <div className="flex cursor-pointer w-full border-b border-[#DADADA] justify-between py-5" >
-            <div className="text-3xl"><img src={Images.leftarrow} alt={Images.leftarrow} /></div>
+          <div className="flex cursor-pointer w-full border-b border-[#DADADA] justify-between py-5">
+            <div className="text-3xl">
+              <img src={Images.leftarrow} alt={Images.leftarrow} />
+            </div>
             <div className="flex gap-3">
-            <div className="font-medium"> تعديل الحساب</div>
-            <div className="icon"> <img src={Images.editIcon} alt="editIcon" /></div>
+              <div className="font-medium"> تعديل الحساب</div>
+              <div className="icon">
+                {" "}
+                <img src={Images.editIcon} alt="editIcon" />
+              </div>
             </div>
           </div>
-          <div className="flex cursor-pointer w-full border-b border-[#DADADA] justify-between py-5" >
-            <div className="text-3xl"><img src={Images.leftarrow} alt={Images.leftarrow} /></div>
+          <div className="flex cursor-pointer w-full border-b border-[#DADADA] justify-between py-5">
+            <div className="text-3xl">
+              <img src={Images.leftarrow} alt={Images.leftarrow} />
+            </div>
             <div className="flex gap-3">
-            <div className="font-medium"> حذف الحساب</div>
-            <div className="icon"> <img src={Images.deleteIcon} alt="deleteIcon" /></div>
+              <div className="font-medium"> حذف الحساب</div>
+              <div className="icon">
+                {" "}
+                <img src={Images.deleteIcon} alt="deleteIcon" />
+              </div>
             </div>
           </div>
-
-
-
         </div>
       </div>
     </>

@@ -10,13 +10,13 @@ import uploadImage from "../assets/images/uploadImage.svg";
 import notes from "../assets/images/notes.svg";
 import jacket from "../assets/images/items/jacket.svg";
 import child from "../assets/images/items/child.svg";
-import gift from "../assets/images/gift.png";
+import gift from "../assets/images/gift.svg";
 import leftarrow from "../assets/images/leftarrow.svg";
-import location from "../assets/images/location.png";
+import location from "../assets/images/location.svg";
 import editIcon from "../assets/images/edit.svg";
 import deleteIcon from "../assets/images/deleteIcon.svg";
 import arrowDown from "../assets/images/arrowDown.svg";
-import money from "../assets/images/money.png";
+import money from "../assets/images/money.svg";
 import banner from "../assets/images/banner.svg";
 import banner2 from "../assets/images/banner2.svg";
 import orderComplete from "../assets/images/orderComplete.svg";
@@ -56,8 +56,8 @@ import grayChair from "../assets/images/grayChair.svg";
 import plus from "../assets/images/plus.svg";
 import minus from "../assets/images/min.svg";
 
-import noAddress from "../assets/images/noAddress.png";
-import addBtn from "../assets/images/addBtn.png";
+import noAddress from "../assets/images/noAddress.svg";
+import addBtn from "../assets/images/addBtn.svg";
 
 import giftRed from "../assets/images/giftRed.svg";
 import menu from "../assets/images/menu.svg";

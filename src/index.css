@@ -207,3 +207,20 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
     padding-bottom: 90px;
   }
 }
+
+.modalContainer{
+overflow: hidden;
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+overflow-y: auto;
+
+overflow-x: hidden;
+}
+.MuiBox-root.css-z8ilzv {
+margin: auto;
+overflow: hidden;
+width: 55%;
+z-index: 40;
+height: 90vh;
+}
