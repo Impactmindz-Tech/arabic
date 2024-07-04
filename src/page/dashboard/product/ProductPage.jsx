@@ -7,11 +7,13 @@ function ProductPage() {
   return (
     <div className="pb-20">
       <Header />
-      <BackButtonMenu text="المنتجات" link={"/"} />
+      <BackButtonMenu text="المنتجات" link={"/dashboard/home"} />
 
       <NavBarProductPage />
 
-      <div className="flex flex-wrap justify-end gap-4">
+      <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
+        <ProductCard />
+        <ProductCard />
         <ProductCard />
         <ProductCard />
         <ProductCard />

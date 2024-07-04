@@ -10,7 +10,7 @@ function CartPage() {
         <p className="cursor-pointer text-[#525252] font-bold">السلة</p>
       </div>
 
-      <div className="border border-[#D24325] relative w-[100%] rounded-2xl flex flex-wrap py-10 mt-[80px] sm:mt-10">
+      <div className="border border-[#D24325] relative w-[100%] my-20 rounded-2xl flex flex-wrap py-10  sm:mt-10">
         <div className="flex gap-2 justify-center  border rounded-full border-[#D24325] bg-[#FDD7CF]  py-2 px-5  fixedTopAbsolute">
           <h2 className="font-bold">محلات كيدز </h2>
           <img
@@ -30,6 +30,26 @@ function CartPage() {
         </div>
       </div>
 
+
+      <div className="border border-[#D24325] relative w-[100%] my-20 rounded-2xl flex flex-wrap py-10  sm:mt-10">
+        <div className="flex gap-2 justify-center  border rounded-full border-[#D24325] bg-[#FDD7CF]  py-2 px-5  fixedTopAbsolute">
+          <h2 className="font-bold">محلات كيدز </h2>
+          <img
+            src={Images.mall1}
+            alt="mall1"
+            className="rounded-full w-8 h-8"
+          />
+        </div>
+        <div className="p-4 w-full my-1">
+          <CartCard />
+          <CartCard />
+
+          <div className="flex justify-between  m-auto mt-6">
+            <span className="font-bold"> 300 ريال</span>
+            <span className="font-bold">الاجمالى</span>
+          </div>
+        </div>
+      </div>
       <div className="flex justify-between my-4 mb-9 ">
         <div className="">الكل</div>
         <div className="font-bold text-[#205960]">المتجر </div>

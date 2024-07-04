@@ -4,15 +4,18 @@ import Header from "../../../components/Header.jsx";
 import Images from "../../../constant/Images.js";
 import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 function DetailsProductHarajPage() {
+  const [whishListState,setWhishListState]=useState(false);
+
   return (
-    <div className="w-[90%] m-auto">
+    <div className="m-auto pb-20">
       <Header />
-      <BackButtonMenu text="تفاصيل المنتج " link="/" />
+      <BackButtonMenu text="تفاصيل المنتج " link="/dashboard/details_product" />
 
       <p className="flex justify-end">
-        <FaHeart className="text-[#B2B2B2] cursor-pointer text-2xl" />
-      </p>
+      <FaHeart className={`${whishListState?'text-[#D96951]':'text-[#B2B2B2]'} cursor-pointer text-2xl sm:w-20`} onClick={()=>setWhishListState(!whishListState)}/>
+        </p>
       <div className="flex w-[100%] h-[250px] m-auto my-2 py-5">
         <Slider />
       </div>

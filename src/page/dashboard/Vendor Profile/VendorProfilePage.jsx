@@ -9,15 +9,15 @@ import VendorProfileCard from "../../../components/cards/VendorProfileCard/Vendo
 function VendorProfilePage() {
     const [open,handleClose]=useState(false)
   return (
-    <div className="w-[90%] m-auto sm:w-[100%] pb-10">
+    <div className=" sm:w-[100%] pb-10">
       <Header />
       <div className="banner w-[100%] bg-red-600 h-50 my-5 relative">
         <div className="flex justify-end gap-2 items-center my-6 z-10 absolute top-0 right-3 sm:my-1 sm:right-1">
           <p className="cursor-pointer text-white font-bold">
             {" "}
-            <Link to={"/"}> حساب التاجر </Link>
-          </p>
-          <Link to={"/"}>
+            <Link to={"/dashboard/profile"}> حساب التاجر </Link>
+          </p>  
+          <Link to={"/dashboard/profile"}>
             <div className="arrow cursor-pointer">
               <img
                 src={Images.whiteArrowRight}

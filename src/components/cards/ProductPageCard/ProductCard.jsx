@@ -2,7 +2,7 @@ import { TiStar } from "react-icons/ti";
 import Images from "../../../constant/Images";
 function ProductCard() {
   return (
-    <div className="cardShadow py-5 sm:py-3 relative m-2 sm:m-0 sm:w-[46%] w-[40%] cursor-pointer">
+    <div className="cardShadow py-5 sm:py-3 relative m-2 sm:m-0 sm:w-[46%] w-[30%] cursor-pointer">
     <div className="flex justify-center relative">
       <img
         src={Images.jacket}

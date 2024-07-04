@@ -5,9 +5,9 @@ import BackButtonMenu from "../../../layout/BackButtonMenu";
 
 function AdsPage() {
   return (
-    <div className="w-[90%] m-auto pb-10">
+    <div className=" m-auto pb-20">
       <Header />
-      <BackButtonMenu text="الاعلانات" link="/" />
+      <BackButtonMenu text="الاعلانات" link="/dashboard/home" />
 
       <div className="banner">
         <div className="w-full">
@@ -18,7 +18,7 @@ function AdsPage() {
           />
         </div>
 
-        <div className="details py-5 flex justify-between items-start">
+        <div className="details py-5 sm:py-4 flex justify-between items-start">
           <div className="flex items-center gap-2">
             <div className="text-[#B2B2B2]">10</div>
             <div className="text-[#B2B2B2]">

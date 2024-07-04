@@ -6,7 +6,7 @@ const MessagesPage = () => {
     <>
       <div className="pb-20">
         <Header />
-        <BackButtonMenu text="الرسائل" link={"/"} />
+        <BackButtonMenu text="الرسائل" link={"/dashboard/home"} />
 
         <div className="menus my-5 gap-y-5">
           <div className="flex w-full cursor-pointer  items-center border-b border-[#DADADA] justify-between py-5">

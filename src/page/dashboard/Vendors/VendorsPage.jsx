@@ -7,7 +7,7 @@ function VendorsPage() {
   return (
     <div className="pb-20">
       <Header />
-      <BackButtonMenu text="المتجر" link={"/"} />
+      <BackButtonMenu text="المتجر" link={"/dashboard/home"} />
 
      <VendorNavBar />
 
