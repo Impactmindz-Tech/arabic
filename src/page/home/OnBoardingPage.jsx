@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import OnBoardingSlider from "../../components/slider/OnBoardingSlider";
 import Images from "../../constant/Images";
 
@@ -9,11 +10,17 @@ function OnBoardingPage() {
 
         {/* next */}
         <div className="btn mt-5 flex flex-wrap justify-center">
-          <button className="RedBtnSubmit w-[50%] p-2 outline-none">التالى</button>
+        <Link to="/choice_login_page" className="RedBtnSubmit w-[50%] p-2 outline-none flex justify-center">
+
+          <button >التالى</button>
+        </Link>
         </div>
         {/* skip */}
         <div className="btn flex mt-3 flex-wrap justify-center">
-          <p className="p-2 text-center text-[#D24325] cursor-pointer">تخطى</p>
+        <Link to="/login" className="p-2 text-center text-[#D24325] cursor-pointer flex justify-center">
+
+          <p >تخطى</p>
+</Link>
         </div>
 
         <div className="absolute bottom-0 left-0 flex justify-center w-full items-center sm:bottom-3">
