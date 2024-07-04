@@ -1,7 +1,5 @@
 import { Slide, Box, IconButton, ClickAwayListener } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-
-import Images from "../../constant/Images.js";
 import { Link } from "react-router-dom";
 
 const MenuModals = ({ openModal, setOpenModal }) => {
