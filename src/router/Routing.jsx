@@ -41,18 +41,9 @@ import NoAddressPage from "../page/dashboard/no address/NoAddressPage";
 import NewPassword from "../page/auth/NewPassword";
 import SplashPage from "../page/home/SplashPage";
 import OnBoardingPage from "../page/home/OnBoardingPage";
+import ChoiceLoginPage from "../page/home/ChoiceLoginPage";
 
-// const Root = () => {
-//     const navigate = useNavigate();
-//     const isAuthenticated = getLocalStorage("token");
-//     useEffect(() => {
-//         if (isAuthenticated) {
-//             navigate("/admin/dashboard");
-//         } else {
-//             navigate("/auth/login");
-//         }
-//     }, [isAuthenticated, navigate]);
-// };
+
 
 const router = createBrowserRouter([
     {
@@ -80,8 +71,12 @@ const router = createBrowserRouter([
         element: <SplashPage />,
     },
     {
-        path: "/on_broading_page",
+        path: "/on_boarding_page",
         element: <OnBoardingPage />,
+    },
+    {
+        path: "/choice_login_page",
+        element: <ChoiceLoginPage />,
     },
     {
         path: "/verify_otp",

@@ -12,7 +12,6 @@ const OnBoardingSlider = () => {
         delay: 2500,
         disableOnInteraction: false,
       }}
-   
       className="mySwiper"
     >
       <SwiperSlide>

@@ -69,9 +69,13 @@ import sponsor from "../assets/images/sponsor.svg";
 import boarding1 from "../assets/images/boarding1.svg";
 import boarding2 from "../assets/images/boarding2.svg";
 import boarding3 from "../assets/images/boarding3.svg";
+import merchant from "../assets/images/merchant.svg";
+import client from "../assets/images/client.svg";
 
 export default {
   Logo,
+  client,
+  merchant,
   boarding1,
   boarding2,
   boarding3,
