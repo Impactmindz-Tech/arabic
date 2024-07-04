@@ -3,7 +3,7 @@ import login_Img from "../assets/images/login_img.png";
 import bell_Img from "../assets/images/bell_icon.svg";
 import client_Img from "../assets/images/clit_ig.svg";
 import search_Img from "../assets/images/search_icon.svg";
-import slider_Img from "../assets/images/slider.png";
+import slider_Img from "../assets/images/slider.svg";
 import chair_Img from "../assets/images/chair.png";
 import rightArrow from "../assets/images/rightArrow.svg";
 import uploadImage from "../assets/images/uploadImage.svg";
