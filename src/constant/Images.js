@@ -28,19 +28,16 @@ import mall2 from "../assets/images/items/mall2.png";
 import car from "../assets/images/items/car.svg";
 import chairText from "../assets/images/categoryImg/chair.png";
 import clothText from "../assets/images/categoryImg/cloth.png";
-
 import cal from "../assets/images/cal.svg";
 import clock from "../assets/images/clock.svg";
 import orderNumber from "../assets/images/orderNumber.svg";
 import cart from "../assets/images/cart.svg";
 import whiteStar from "../assets/images/whiteStar.svg";
 import userBlue from "../assets/images/userBlue.svg";
-
 import call from "../assets/images/call.svg";
 import message from "../assets/images/message.svg";
 import whiteArrowRight from "../assets/images/whiteArrowRight.svg";
 import sendBtn from "../assets/images/sendBtn.svg";
-
 import callus from "../assets/images/menu/callus.svg";
 import click from "../assets/images/menu/click.svg";
 import correct from "../assets/images/menu/correct.svg";
@@ -52,20 +49,16 @@ import share from "../assets/images/menu/share.svg";
 import user from "../assets/images/menu/user.svg";
 import logout from "../assets/images/menu/logout.svg";
 import grayChair from "../assets/images/grayChair.svg";
-
 import plus from "../assets/images/plus.svg";
 import minus from "../assets/images/min.svg";
-
 import noAddress from "../assets/images/noAddress.svg";
 import addBtn from "../assets/images/addBtn.svg";
-
 import giftRed from "../assets/images/giftRed.svg";
 import menu from "../assets/images/menu.svg";
 import cartWhite from "../assets/images/cartWhite.svg";
 import home from "../assets/images/home.svg";
 import Logo from "../assets/images/Logo.svg";
 import sponsor from "../assets/images/sponsor.svg";
-
 import boarding1 from "../assets/images/boarding1.svg";
 import boarding2 from "../assets/images/boarding2.svg";
 import boarding3 from "../assets/images/boarding3.svg";

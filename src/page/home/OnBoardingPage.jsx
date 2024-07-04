@@ -3,8 +3,8 @@ import Images from "../../constant/Images";
 
 function OnBoardingPage() {
   return (
-    <div className="w-full h-screen bg-lightGrey">
-      <div className="pb-20 m-auto w-[720px] relative sm:w-[100%]">
+    <div className="w-full h-screen bg-lightGrey py-16 sm:py-2">
+      <div className="pb-20 m-auto w-[720px] relative sm:w-[100%] ">
         <OnBoardingSlider />
 
         {/* next */}

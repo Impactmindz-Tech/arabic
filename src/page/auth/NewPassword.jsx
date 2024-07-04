@@ -30,7 +30,7 @@ const NewPassword = () => {
         >
           <div className="mt-3">
             <label
-              className="2xl:text-sm text-right block bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+              className="2xl:text-sm text-right block capitalize bg-white text-input-label -top-2 left-5 text-[11px] px-1"
               htmlFor="password"
             >
               كلمة المرور الجديدة
@@ -46,7 +46,7 @@ const NewPassword = () => {
               </div>
               <input
                 placeholder="ادخل كلمة المرور  "
-                className="w-full text-right outline-none text-[12px] text-input-placeholder"
+                className="w-full text-right capitalize outline-none text-[12px] text-input-placeholder"
                 type={passwordVisible ? "text" : "password"}
                 id="password"
                 {...register("password")}
@@ -55,12 +55,12 @@ const NewPassword = () => {
           </div>
           <div className="mt-3">
             <label
-              className="2xl:text-sm text-right block bg-white text-input-label -top-2 left-5 text-[11px] px-1"
+              className="2xl:text-sm text-right capitalize block bg-white text-input-label -top-2 left-5 text-[11px] px-1"
               htmlFor="confirm_password"
             >
               تأكيد كلمة المرور
             </label>
-            <div className="2xl:p-4 border mt-1 border-input-placeholder border-[#000E2F70] flex gap-x-2 rounded-xl p-3 relative">
+            <div className="2xl:p-4 border mt-1 capitalize border-input-placeholder border-[#000E2F70] flex gap-x-2 rounded-xl p-3 relative">
               <div
                 onClick={() =>
                   setConfirmPasswordVisible(!confirmPasswordVisible)
