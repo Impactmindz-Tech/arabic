@@ -6,7 +6,7 @@ import { LiaWalletSolid,LiaCoinsSolid } from "react-icons/lia";
 const Profile = () => {
   return (
     <>
-      <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
+      <div className="pb-20">
       <Header />
         <BackButtonMenu text="حسابى" link="/" />
 

@@ -9,7 +9,7 @@ function DetailsProduct() {
   return (
     <div className="w-[90%] m-auto pb-10">
       <Header />
-      <BackButtonMenu text="تفاصيل المنتج " link="/" />
+      <BackButtonMenu text="تفاصيل المنتج " link="/dashboard/home" />
 
       <p className="flex justify-end">
         <FaHeart className="text-[#B2B2B2] cursor-pointer text-2xl sm:w-20" />

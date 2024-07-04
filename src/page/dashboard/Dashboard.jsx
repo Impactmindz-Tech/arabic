@@ -91,6 +91,8 @@ const Dashboard = () => {
         <CategoryDashboardCard />
         <CategoryDashboardCard />
         <CategoryDashboardCard />
+        <CategoryDashboardCard />
+        <CategoryDashboardCard />
       </div>
 
       <div className="flex justify-between my-4 mb-9 ">

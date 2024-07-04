@@ -12,7 +12,7 @@ function CartCard() {
     }
   return (
     
-       <div className="cardShadow w-[96%] m-auto flex justify-between items-center p-3 mt-[10px]">
+       <div className="cardShadow flex justify-between items-center p-3 mt-[10px]">
           <div className="price font-bold text-[#D96951] p-2 flex flex-col gap-y-4 ">
             200 ريال
             <div className="deleteIcon text-center px-3 sm:px-1">

@@ -24,7 +24,7 @@ function CompleteOrder() {
       </p>
 
       <div className="flex justify-center my-10">
-        <Link to="/dashboard/orders" className="flex justify-center w-[100%]">
+        <Link to="/dashboard/home" className="flex justify-center w-[100%]">
           <button className="btnSubmit w-[100%]">العودة الى الرئيسية</button>
         </Link>
       </div>

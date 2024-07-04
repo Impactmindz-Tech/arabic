@@ -5,7 +5,7 @@ import NavBarProductPage from "../../../components/NavBars/ProductPageNavBar/Nav
 
 function ProductPage() {
   return (
-    <div className="w-[90%] m-auto pb-20">
+    <div className="pb-20">
       <Header />
       <BackButtonMenu text="المنتجات" link={"/"} />
 

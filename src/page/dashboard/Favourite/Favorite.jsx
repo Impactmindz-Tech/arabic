@@ -4,7 +4,7 @@ import Header from "../../../components/Header.jsx";
 import FavoriteCard from "../../../components/cards/FavoriteCard/FavoriteCard.jsx";
 function Favorite() {
   return (
-    <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
+    <div className="pb-20">
       <Header />
       <BackButtonMenu text="المفضلة" link="/" />
 

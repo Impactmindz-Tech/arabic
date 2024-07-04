@@ -171,12 +171,18 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
 
 
 .bottomMenuBar {
-  max-width: 750px;
+  max-width: 720px;
   margin: 0 auto;
 
   width: 100%;
 }
 
+.fixedTopAbsolute{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 @media (max-width: 767px) {
   .left {
     display: flex;

@@ -4,7 +4,7 @@ import Header from "../../../components/Header.jsx";
 const MessagePage = () => {
   return (
     <>
-      <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
+      <div className="pb-20">
         <Header />
         <div className="bottomBoxShadow p-2 flex justify-end items-center gap-2 my-2">
           <div className="flex justify-end flex-col text-right text-[#525252]">

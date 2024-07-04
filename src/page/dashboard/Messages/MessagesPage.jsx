@@ -4,7 +4,7 @@ import BackButtonMenu from "../../../layout/BackButtonMenu.jsx";
 const MessagesPage = () => {
   return (
     <>
-      <div className="w-[90%] m-auto pb-20">
+      <div className="pb-20">
         <Header />
         <BackButtonMenu text="الرسائل" link={"/"} />
 

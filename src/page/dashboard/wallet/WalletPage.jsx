@@ -5,7 +5,7 @@ import Header from "../../../components/Header.jsx";
 const WalletPage = () => {
   return (
     <>
-      <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
+      <div className="pb-20">
         <Header />
         <BackButtonMenu text="محفظتى" link="/" />
 

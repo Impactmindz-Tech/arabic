@@ -5,7 +5,7 @@ import CoinPageCard from "../../../components/cards/CoinPageCard/CoinPageCard.js
 const CoinPage = () => {
   return (
     <>
-      <div className="w-[90%] m-auto pb-20 sm:w-[100%]">
+      <div className="pb-20">
         <Header />
         <BackButtonMenu text="محفظتى" link="/" />
         <div className="flex justify-center">

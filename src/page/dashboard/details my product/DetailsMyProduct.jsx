@@ -5,7 +5,7 @@ import Header from "../../../components/Header.jsx";
 import { Link } from "react-router-dom";
 function DetailsMyProduct() {
   return (
-    <div className="w-[90%] m-auto pb-20">
+    <div className="pb-20">
      <Header />
         <BackButtonMenu text="تفاصيل المنتج" link="/" />
 

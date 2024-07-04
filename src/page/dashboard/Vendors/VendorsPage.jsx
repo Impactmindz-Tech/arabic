@@ -5,13 +5,15 @@ import VendorCards from "../../../components/cards/VendorCard/VendorCards";
 import VendorNavBar from "../../../components/NavBars/VendorNavBar/VendorNavBar";
 function VendorsPage() {
   return (
-    <div className="w-[90%] m-auto pb-20">
+    <div className="pb-20">
       <Header />
       <BackButtonMenu text="المتجر" link={"/"} />
 
      <VendorNavBar />
 
       <div className="flex gap-3 flex-wrap justify-between">
+        <VendorCards />
+        <VendorCards />
         <VendorCards />
         <VendorCards />
         <VendorCards />

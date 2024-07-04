@@ -20,7 +20,7 @@ function BottomMenu() {
 
 
             <div className="icon">
-               <Link to="">
+               <Link to="/dashboard/coins">
                <img src={Images.giftRed} alt=" giftRed" className="sm:w-4 sm:h-4 w-7 h-7 object-cover"/>
                </Link> 
             </div>

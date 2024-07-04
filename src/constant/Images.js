@@ -1,31 +1,31 @@
 import Auth_Img from "../assets/images/auth_img.png";
 import login_Img from "../assets/images/login_img.png";
-import bell_Img from "../assets/images/bell_icon.png";
+import bell_Img from "../assets/images/bell_icon.svg";
 import client_Img from "../assets/images/clit_ig.png";
-import search_Img from "../assets/images/search_icon.png";
+import search_Img from "../assets/images/search_icon.svg";
 import slider_Img from "../assets/images/slider.png";
 import chair_Img from "../assets/images/chair.png";
-import rightArrow from "../assets/images/rightArrow.png";
+import rightArrow from "../assets/images/rightArrow.svg";
 import uploadImage from "../assets/images/uploadImage.png";
 import notes from "../assets/images/notes.png";
-import jacket from "../assets/images/items/jacket.png";
+import jacket from "../assets/images/items/jacket.svg";
 import child from "../assets/images/items/child.png";
 import gift from "../assets/images/gift.png";
 import leftarrow from "../assets/images/leftarrow.png";
 import location from "../assets/images/location.png";
 import editIcon from "../assets/images/edit.png";
-import deleteIcon from "../assets/images/deleteIcon.png";
+import deleteIcon from "../assets/images/deleteIcon.svg";
 import arrowDown from "../assets/images/arrowDown.png";
 import money from "../assets/images/money.png";
-import banner from "../assets/images/banner.png";
+import banner from "../assets/images/banner.svg";
 import banner2 from "../assets/images/banner2.png";
 import orderComplete from "../assets/images/orderComplete.png";
 
 import watch from "../assets/images/items/watch.png";
 import shoe from "../assets/images/items/shoe.png";
-import mall1 from "../assets/images/items/mall1.png";
+import mall1 from "../assets/images/items/mall1.svg";
 import mall2 from "../assets/images/items/mall2.png";
-import car from "../assets/images/items/car.png";
+import car from "../assets/images/items/car.svg";
 import chairText from "../assets/images/categoryImg/chair.png";
 import clothText from "../assets/images/categoryImg/cloth.png";
 
@@ -53,16 +53,16 @@ import user from "../assets/images/menu/user.png";
 import logout from "../assets/images/menu/logout.png";
 import grayChair from "../assets/images/grayChair.png";
 
-import plus from "../assets/images/plus.png";
-import minus from "../assets/images/min.png";
+import plus from "../assets/images/plus.svg";
+import minus from "../assets/images/min.svg";
 
 import noAddress from "../assets/images/noAddress.png";
 import addBtn from "../assets/images/addBtn.png";
 
-import giftRed from "../assets/images/giftRed.png";
-import menu from "../assets/images/menu.png";
-import cartWhite from "../assets/images/cartWhite.png";
-import home from "../assets/images/home.png";
+import giftRed from "../assets/images/giftRed.svg";
+import menu from "../assets/images/menu.svg";
+import cartWhite from "../assets/images/cartWhite.svg";
+import home from "../assets/images/home.svg";
 
 export default {
   watch,
