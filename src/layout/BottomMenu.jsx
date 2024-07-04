@@ -21,7 +21,10 @@ function BottomMenu() {
           </div>
         </div>
 
-        <div className="icon cursor-pointer">
+        <div className="icon cursor-pointer relative">
+        <div className="absolute -top-1 -right-2 p-1 px-2.5 sm:text-xs sm:p-0 sm:-right-1 sm:-top-0  sm:px-[5px] text-[#205960] text-sm bg-white rounded-full">
+          2
+        </div>
           <Link to="/dashboard/cart">
             <div
               className={`hover:bg-red-900 p-2 rounded-full ${
