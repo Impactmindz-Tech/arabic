@@ -38,6 +38,7 @@ import NotificationPage from "../page/dashboard/Notification/NotificationPage";
 import MessagesPage from "../page/dashboard/Messages/MessagesPage";
 import MessagePage from "../page/dashboard/Message/MessagePage";
 import NoAddressPage from "../page/dashboard/no address/NoAddressPage";
+import NewPassword from "../page/auth/NewPassword";
 
 // const Root = () => {
 //     const navigate = useNavigate();
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
     {
         path: "/login",
         element: <AuthLayout><Login /></AuthLayout>,
+    },
+    {
+        path: "/new_password",
+        element: <AuthLayout><NewPassword /></AuthLayout>,
     },
     {
         path: "/forgetpassword",

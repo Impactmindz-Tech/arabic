@@ -92,7 +92,7 @@ function VendorProfilePage() {
         </Link>
       </nav>
 
-      <div className="flex flex-wrap  justify-center gap-4 sm:gap-2">
+      <div className="flex flex-wrap  gap-4 sm:gap-2">
        <VendorProfileCard />
        <VendorProfileCard />
        <VendorProfileCard />

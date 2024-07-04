@@ -9,14 +9,10 @@ function MyProduct() {
 
       {/* product section */}
       <div className="flex flex-wrap  justify-center gap-4 sm:gap-2">
-        
-
-       <MyProductCard />
-       <MyProductCard />
-       <MyProductCard />
-       <MyProductCard />
-
-    
+        <MyProductCard />
+        <MyProductCard />
+        <MyProductCard />
+        <MyProductCard />
       </div>
     </div>
   );

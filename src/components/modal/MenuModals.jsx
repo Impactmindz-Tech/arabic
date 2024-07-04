@@ -1,7 +1,13 @@
-import { Slide, Box, IconButton, ClickAwayListener } from "@mui/material";
+import {
+  Slide,
+  Box,
+  IconButton,
+  ClickAwayListener,
+  Backdrop,
+} from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "react-router-dom";
-import {  useEffect } from "react";
+import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const MenuModals = ({ openModal, setOpenModal }) => {
@@ -27,10 +33,18 @@ const MenuModals = ({ openModal, setOpenModal }) => {
       {openModal && (
         <ClickAwayListener onClickAway={handleClickAway}>
           <div>
+            <Backdrop
+              sx={{
+                zIndex: (theme) => theme.zIndex.drawer + 1,
+                backdropFilter: "blur(5px)",
+              }}
+              onClick={handleClickAway}
+              open={open}
+            />
             <Slide direction="up" in={openModal} mountOnEnter unmountOnExit>
               <Box
                 sx={{
-                  position: "absolute",
+                  position: "fixed",
                   bottom: 0,
                   left: 0,
                   right: 0,
@@ -39,6 +53,7 @@ const MenuModals = ({ openModal, setOpenModal }) => {
                   borderTopLeftRadius: 16,
                   borderTopRightRadius: 16,
                   boxShadow: 3,
+                  zIndex: (theme) => theme.zIndex.drawer + 2,
                 }}
               >
                 <Box

@@ -5,7 +5,7 @@ import { IoAddOutline } from "react-icons/io5";
 import AddressPopModal from "../../../components/modal/AddressPopModal.jsx";
 import { useState } from "react";
 const AddressPage = () => {
-    const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <>
@@ -42,15 +42,14 @@ const AddressPage = () => {
         </div>
 
         <div className="bg-[#205960] absolute bottom-0 left-0 p-1 rounded-full cursor-pointer">
-            <IoAddOutline className="text-2xl text-white" onClick={()=>setOpen(true)}/>
+          <IoAddOutline
+            className="text-2xl text-white"
+            onClick={() => setOpen(true)}
+          />
         </div>
 
-
-        <AddressPopModal open={open} setOpen={setOpen}/>
+        <AddressPopModal open={open} setOpen={setOpen} />
       </div>
-
-
-
     </>
   );
 };

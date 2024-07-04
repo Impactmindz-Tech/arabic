@@ -181,6 +181,11 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.MuiBox-root.css-1x9kklj {
+  margin: auto;
+  max-width: 720px;
+}
 @media (max-width: 767px) {
   .left {
     display: flex;
@@ -197,9 +202,8 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
   .ShapesRight {
     padding: 4vw;
   }
-  .MuiBox-root.css-1wnsr1i {
-    width: 90%;
-    margin: auto;
+  .MuiBox-root.css-1x9kklj {
+    width: 98%;
   }
 
   .MuiBox-root.css-ekhbh2 {
@@ -208,19 +212,19 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
   }
 }
 
-.modalContainer{
-overflow: hidden;
-    width: 100%;
-    overflow: auto;
-    margin: auto;
-overflow-y: auto;
+.modalContainer {
+  overflow: hidden;
+  width: 100%;
+  overflow: auto;
+  margin: auto;
+  overflow-y: auto;
 
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 .MuiBox-root.css-z8ilzv {
-margin: auto;
-overflow: hidden;
-width: 55%;
-z-index: 40;
-height: 90vh;
+  margin: auto;
+  overflow: hidden;
+  width: 55%;
+  z-index: 40;
+  height: 90vh;
 }
