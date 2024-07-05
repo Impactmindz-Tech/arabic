@@ -168,7 +168,7 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
   background-color: #f1f1f1;
 }
 
-.bottomMenuBar {  
+.bottomMenuBar {
   max-width: 720px;
   margin: 0 auto;
 
@@ -227,5 +227,3 @@ button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconB
   z-index: 40;
   height: 90vh;
 }
-
-

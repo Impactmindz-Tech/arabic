@@ -4,7 +4,7 @@ import Images from "../../constant/Images";
 
 function OnBoardingPage() {
   return (
-    <div className="w-full bg-lightGrey py-2 sm:py-2"> 
+    <div className="w-full bg-lightGrey py-2 sm:py-2">
       <div className="m-auto w-[720px] relative sm:w-[100%] py-10 sm:py-2">
         <OnBoardingSlider />
 
