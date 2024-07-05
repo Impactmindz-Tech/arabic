@@ -3,7 +3,7 @@ import Images from "../../constant/Images";
 
 function ChoiceLoginPage() {
   return (
-    <div className="w-full h-screen bg-lightGrey">
+    <div className="w-full bg-lightGrey">
       <div className="pb-20 m-auto w-[720px] relative sm:w-[100%] ">
         <div className="">
           <h1 className="text-right font-bold text-[#272727] my-6 pr-5">
