@@ -4,7 +4,7 @@ import Images from "../../constant/Images";
 
 function OnBoardingPage() {
   return (
-    <div className="w-full h-screen bg-lightGrey py-16 sm:py-2">
+    <div className="w-full h-screen bg-lightGrey py-2 sm:py-2">
       <div className="pb-20 m-auto w-[720px] relative sm:w-[100%] ">
         <OnBoardingSlider />
 
@@ -23,7 +23,7 @@ function OnBoardingPage() {
 </Link>
         </div>
 
-        <div className="absolute bottom-0 left-0 flex justify-center w-full items-center sm:bottom-3">
+        <div className="bottomMenuBar flex justify-center fixed bottom-0 left-50 ">
           <img src={Images.sponsor} alt="Images sponsor" />
         </div>
       </div>

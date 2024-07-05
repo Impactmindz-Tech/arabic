@@ -39,7 +39,7 @@ function ChoiceLoginPage() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 flex justify-center w-full items-center sm:bottom-3">
+        <div className="bottomMenuBar flex justify-center fixed bottom-0 left-50">
           <img src={Images.sponsor} alt="Images sponsor" />
         </div>
       </div>

@@ -44,28 +44,27 @@ const Profile = () => {
         </div>
 
         <div className="flex justify-between sm:gap-2">
-
           <div className="wallet px-10 py-5 sm:px-2 sm:py-2 sm:w-[49%]">
-        <Link to="/dashboard/wallet">
-            <h1 className="text-right">محفظتى</h1>
-            <div className="flex gap-7 mt-6 items-center sm:justify-end">
-              <h2 className="text-right "> 100 ريال</h2>
-              <div className="bg-[#D24325] rounded-full p-2 text-white ">
-                <LiaWalletSolid className="text-2xl" />
+            <Link to="/dashboard/wallet">
+              <h1 className="text-right">محفظتى</h1>
+              <div className="flex gap-7 mt-6 items-center sm:justify-end">
+                <h2 className="text-right "> 100 ريال</h2>
+                <div className="bg-[#D24325] rounded-full p-2 text-white ">
+                  <LiaWalletSolid className="text-2xl" />
+                </div>
               </div>
-            </div>
             </Link>
           </div>
 
           <div className="wallet px-10 py-5 sm:px-2 sm:py-2 sm:w-[49%] cursor-pointer">
-          <Link to="/dashboard/coins">
-            <h1 className="text-right">نقاطى</h1>
-            <div className="flex gap-7 mt-6 items-center sm:justify-end">
-              <h2 className="text-right "> 500 نقطة </h2>
-              <div className="bg-[#205960] rounded-full p-2 text-white ">
-                <LiaCoinsSolid className="text-2xl" />
+            <Link to="/dashboard/coins">
+              <h1 className="text-right">نقاطى</h1>
+              <div className="flex gap-7 mt-6 items-center sm:justify-end">
+                <h2 className="text-right "> 500 نقطة </h2>
+                <div className="bg-[#205960] rounded-full p-2 text-white ">
+                  <LiaCoinsSolid className="text-2xl" />
+                </div>
               </div>
-            </div>
             </Link>
           </div>
         </div>
